@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     manifest: '/site.webmanifest',
     icons: {
         icon: '/favicon.ico',
-        shortcut: '/shortcut-icon.png',
+        shortcut: '/shortcut.png',
         apple: '/apple-touch-icon.png',
         other: [
             {
