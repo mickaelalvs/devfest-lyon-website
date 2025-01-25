@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const title = "DevFest Lyon 2025";
-const description = "Le Devfest Lyon, le rassemblement de la communauté tech une fois par an dans la vielle des lumières.";
+const description = "Le Devfest Lyon, le rassemblement de la communauté tech une fois par an dans la ville des lumières 🦁";
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://devfest.gdglyon.com'),
