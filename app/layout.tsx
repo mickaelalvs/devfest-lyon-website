@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
 
 const title = "DevFest Lyon 2025";
 const description = "Le Devfest Lyon, le rassemblement de la communauté tech une fois par an dans la ville des lumières 🦁";
@@ -51,7 +54,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body>
+            <body className={inter.className}>
                 {children}
             </body>
         </html>
