@@ -86,7 +86,7 @@ export const Partners = () => (
                     className="mt-12 max-w-2xl mx-auto"
                 >
                     <div className="relative p-8 rounded-2xl overflow-hidden">
-                        <div className="absolute inset-0 bg-gradient-to-r from-yellow/10 to-red/10 backdrop-blur-sm"></div>
+                        <div className="absolute inset-0 bg-linear-to-r from-yellow/10 to-red/10 backdrop-blur-xs"></div>
                         <div className="relative">
                             <h3 className="text-2xl font-bold mb-4 text-foreground">Become a Sponsor</h3>
                             <p className="mx-auto max-w-[600px] text-muted-foreground mb-6">
@@ -95,7 +95,7 @@ export const Partners = () => (
                             </p>
                             <Button
                                 size="lg"
-                                className="bg-gradient-to-r from-yellow to-red hover:opacity-90 text-white border-0"
+                                className="bg-linear-to-r from-yellow to-red hover:opacity-90 text-white border-0"
                                 asChild
                             >
                                 <Link href="#sponsor">Sponsorship Packages</Link>

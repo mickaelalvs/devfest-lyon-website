@@ -4,9 +4,10 @@ import {Hero} from "@/components/hero";
 import {FirstEdition} from "@/components/firstEdition";
 import {About} from "@/components/about";
 import {Team} from "@/components/team";
-import {Partners} from "@/components/partners";
+import {Sponsoring} from "@/components/sponsoring";
 import {Footer} from "@/components/footer";
 import {Register} from "@/components/register";
+import {CallForPaper} from "@/components/callForPaper";
 
 export default function Home() {
     return (
@@ -15,8 +16,9 @@ export default function Home() {
             <FirstEdition />
             <About />
             <Team />
-            <Partners />
+            <Sponsoring />
             <Register />
+            <CallForPaper />
             <Footer />
         </main>
     );

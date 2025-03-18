@@ -9,51 +9,52 @@ export const Register = () => (
         <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
                 <motion.div
-                    initial={{ opacity: 0, x: -50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5 }}
+                    initial={{opacity: 0, x: -50}}
+                    whileInView={{opacity: 1, x: 0}}
+                    viewport={{once: true}}
+                    transition={{duration: 0.5}}
                     className="flex flex-col justify-center space-y-4"
                 >
                     <div className="space-y-2 flex flex-col items-start gap-2">
                         <div className="inline-block rounded-lg bg-pink/10 px-3 py-1 text-sm text-pink">
-                            Limited Spots Available
+                            Nombre de places limité
                         </div>
-                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-pink">
-                            Register for DevFest Lyon 2025
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-pink pt-4">
+                            S'inscrire au DevFest Lyon 2025
                         </h2>
                         <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                            Secure your spot at the biggest developer event in Lyon. Early bird tickets available now!
+                            Réservez votre place à l'événement. Les billets sont disponibles dès maintenant !
                         </p>
                     </div>
-                    <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                    <div className="flex flex-col gap-2 min-[400px]:flex-row pt-8">
                         <Button
                             size="lg"
-                            className="bg-gradient-to-r from-red to-pink hover:opacity-90 text-white border-0 group"
+                            className="bg-linear-to-r from-red to-pink hover:opacity-90 text-white border-0 group"
                             asChild
                         >
                             <Link href="#tickets">
-                                Get Your Ticket
-                                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                                Obtenir un billet
+                                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"/>
                             </Link>
                         </Button>
                         <Button variant="outline" size="lg" className="border-pink text-pink hover:bg-pink/10" asChild>
-                            <Link href="#group-tickets">Group Tickets</Link>
+                            <Link href="#group-tickets">Billets de groupe</Link>
                         </Button>
                     </div>
                     <div className="flex items-center space-x-2 text-muted-foreground">
-                        <Users className="h-5 w-5 text-pink" />
-                        <span>Limited capacity - Register early to secure your spot</span>
+                        <Users className="h-5 w-5 text-pink"/>
+                        <span>Capacité limitée - Inscrivez-vous rapidement pour garantir votre place</span>
                     </div>
                 </motion.div>
                 <motion.div
-                    initial={{ opacity: 0, x: 50 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5 }}
+                    initial={{opacity: 0, x: 50}}
+                    whileInView={{opacity: 1, x: 0}}
+                    viewport={{once: true}}
+                    transition={{duration: 0.5}}
                 >
                     <div className="relative">
-                        <div className="absolute -inset-1 bg-gradient-to-r from-red to-pink rounded-lg blur opacity-30"></div>
+                        <div
+                            className="absolute -inset-1 bg-linear-to-r from-red to-pink rounded-lg blur-sm opacity-30"></div>
                         <Image
                             src="/placeholder.svg?height=400&width=600"
                             width={600}

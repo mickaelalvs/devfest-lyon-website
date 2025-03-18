@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import {Github, Linkedin, Twitter, Youtube} from "lucide-react";
+import {Linkedin, Twitter} from "lucide-react";
 
 import Logo from '../assets/images/logo-devfest.svg';
 
@@ -17,7 +17,7 @@ export const Footer = () => (
                             height={35}
                         />
                         <span
-                            className="inline-block font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-pink">
+                            className="inline-block font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-pink">
                   DevFest Lyon
                 </span>
                     </Link>
@@ -63,13 +63,13 @@ export const Footer = () => (
                         <li>
                             <Link href="#privacy"
                                   className="text-muted-foreground hover:text-foreground transition-colors">
-                                Privacy Policy
+                                Politique de confidentialité
                             </Link>
                         </li>
                         <li>
                             <Link href="#terms"
                                   className="text-muted-foreground hover:text-foreground transition-colors">
-                                Terms of Service
+                                Conditions d'utilisation
                             </Link>
                         </li>
                         <li>
@@ -77,7 +77,7 @@ export const Footer = () => (
                                 href="#code-of-conduct"
                                 className="text-muted-foreground hover:text-foreground transition-colors"
                             >
-                                Code of Conduct
+                                Code de conduite
                             </Link>
                         </li>
                     </ul>
@@ -85,27 +85,19 @@ export const Footer = () => (
                 <div className="space-y-4">
                     <h3 className="text-sm font-medium">Connect</h3>
                     <div className="flex space-x-4">
-                        <Link href="#twitter" className="text-muted-foreground hover:text-primary transition-colors">
-                            <Twitter className="h-5 w-5"/>
-                            <span className="sr-only">Twitter</span>
-                        </Link>
-                        <Link href="#linkedin" className="text-muted-foreground hover:text-green transition-colors">
+                        <Link href="https://www.linkedin.com/company/devfest-lyon" className="text-muted-foreground hover:text-green transition-colors">
                             <Linkedin className="h-5 w-5"/>
                             <span className="sr-only">LinkedIn</span>
                         </Link>
-                        <Link href="#github" className="text-muted-foreground hover:text-yellow transition-colors">
-                            <Github className="h-5 w-5"/>
-                            <span className="sr-only">GitHub</span>
-                        </Link>
-                        <Link href="#youtube" className="text-muted-foreground hover:text-red transition-colors">
-                            <Youtube className="h-5 w-5"/>
-                            <span className="sr-only">YouTube</span>
+                        <Link href="https://x.com/devfestlyon" className="text-muted-foreground hover:text-red transition-colors">
+                            <Twitter className="h-5 w-5"/>
+                            <span className="sr-only">X</span>
                         </Link>
                     </div>
                     <p className="text-sm text-muted-foreground">
                         Email:{" "}
-                        <Link href="mailto:contact@devfestlyon.com" className="hover:text-pink transition-colors">
-                            contact@devfestlyon.com
+                        <Link href="mailto:contact@gdglyon.com" className="hover:text-pink transition-colors">
+                            contact@gdglyon.com
                         </Link>
                     </p>
                 </div>
