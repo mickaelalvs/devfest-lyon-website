@@ -78,7 +78,7 @@ export const Team = () => {
                             organisatrice
                         </div>
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl bg-clip-text text-green">
-                            Rencontrer notre équipe
+                            Rencontrez notre équipe
                         </h2>
                     </div>
                     <motion.div
@@ -86,12 +86,12 @@ export const Team = () => {
                         initial="hidden"
                         whileInView="show"
                         viewport={{once: true}}
-                        className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-x-40 gap-y-20 mt-8 pt-16"
+                        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10 md:gap-x-30 md:gap-y-30 mt-8 pt-16"
                     >
                         {teamMembers.map((member, i) => (
                             <motion.div key={i} variants={item} className="flex flex-col items-center space-y-3 group">
                                 <div className="relative">
-                                    <div className="relative h-48 w-48 overflow-hidden rounded-full bg-background"
+                                    <div className="relative h-48 w-48 sm:h-36 sm:w-36 md:h-48 md:w-48 overflow-hidden rounded-full bg-background"
                                          style={{borderColor: member.color, borderWidth: '5px'}}>
                                         <Image
                                             src={member.image || "/placeholder.svg"}

@@ -1,8 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import {Linkedin, Twitter} from "lucide-react";
+import {Linkedin} from "lucide-react";
 
 import Logo from '../assets/images/logo-devfest.svg';
+import BlueskyIcon from '../assets/icons/bluesky.svg';
 
 export const Footer = () => (
     <footer className="w-full border-t bg-background py-6 md:py-12">
@@ -17,7 +18,7 @@ export const Footer = () => (
                             height={35}
                         />
                         <span
-                            className="inline-block font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-pink">
+                            className="inline-block font-bold bg-clip-text text-primary">
                   DevFest Lyon
                 </span>
                     </Link>
@@ -26,55 +27,38 @@ export const Footer = () => (
                     </p>
                 </div>
                 <div className="space-y-4">
-                    <h3 className="text-sm font-medium">Links</h3>
+                    <h3 className="text-sm font-medium">Liens</h3>
                     <ul className="space-y-2 text-sm">
                         <li>
                             <Link href="#about" className="text-muted-foreground hover:text-primary transition-colors">
-                                About
+                                Première édition
                             </Link>
                         </li>
                         <li>
                             <Link href="#first-edition"
                                   className="text-muted-foreground hover:text-red transition-colors">
-                                First Edition
+                                C'est quoi cet événement ?
                             </Link>
                         </li>
                         <li>
-                            <Link href="#team" className="text-muted-foreground hover:text-green transition-colors">
-                                Team
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#partners"
+                            <Link href="#sponsoring"
                                   className="text-muted-foreground hover:text-yellow transition-colors">
-                                Partners
+                                Sponsoring
                             </Link>
                         </li>
                         <li>
-                            <Link href="#register" className="text-muted-foreground hover:text-red transition-colors">
-                                Register
+                            <Link href="#team" className="text-muted-foreground hover:text-red transition-colors">
+                                L'équipe organisatrice
                             </Link>
                         </li>
                     </ul>
                 </div>
                 <div className="space-y-4">
-                    <h3 className="text-sm font-medium">Legal</h3>
+                    <h3 className="text-sm font-medium">Autres pages</h3>
                     <ul className="space-y-2 text-sm">
                         <li>
-                            <Link href="#privacy"
-                                  className="text-muted-foreground hover:text-foreground transition-colors">
-                                Politique de confidentialité
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#terms"
-                                  className="text-muted-foreground hover:text-foreground transition-colors">
-                                Conditions d'utilisation
-                            </Link>
-                        </li>
-                        <li>
                             <Link
-                                href="#code-of-conduct"
+                                href="/code-of-conduct"
                                 className="text-muted-foreground hover:text-foreground transition-colors"
                             >
                                 Code de conduite
@@ -83,15 +67,19 @@ export const Footer = () => (
                     </ul>
                 </div>
                 <div className="space-y-4">
-                    <h3 className="text-sm font-medium">Connect</h3>
-                    <div className="flex space-x-4">
-                        <Link href="https://www.linkedin.com/company/devfest-lyon" className="text-muted-foreground hover:text-green transition-colors">
+                    <h3 className="text-sm font-medium">Nos réseaux</h3>
+                    <div className="flex space-x-2">
+                        <Link href="https://www.linkedin.com/company/devfest-lyon" target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-muted-foreground hover:text-green transition-colors flex items-end">
                             <Linkedin className="h-5 w-5"/>
                             <span className="sr-only">LinkedIn</span>
                         </Link>
-                        <Link href="https://x.com/devfestlyon" className="text-muted-foreground hover:text-red transition-colors">
-                            <Twitter className="h-5 w-5"/>
-                            <span className="sr-only">X</span>
+                        <Link href="https://bsky.app/profile/devfestlyon.bsky.social"
+                              target="_blank" rel="noopener noreferrer"
+                              className="text-muted-foreground hover:text-red transition-colors flex items-end">
+                            <Image src={BlueskyIcon} alt="Bluesky icon" width={20} height={20} />
+                            <span className="sr-only">BlueskyIcon</span>
                         </Link>
                     </div>
                     <p className="text-sm text-muted-foreground">

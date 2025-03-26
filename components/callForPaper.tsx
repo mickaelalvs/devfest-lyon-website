@@ -20,7 +20,7 @@ export const CallForPaper = () => (
                         Être Speaker au premier DevFest Lyon
                     </h2>
                     <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                        Partagez vos connaissances et votre expérience avec la communauté.
+                        Partagez vos connaissances et votre expérience avec la communauté
                     </p>
                 </div>
             </motion.div>
@@ -122,16 +122,13 @@ export const CallForPaper = () => (
                     className="space-y-6"
                 >
                     <h3 className="text-2xl font-bold text-navy">Liste des sujets potentiels</h3>
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 gap-4">
                         {[
-                            "Web Development",
-                            "Mobile Apps",
-                            "Cloud & DevOps",
-                            "AI & Machine Learning",
-                            "UI/UX Design",
-                            "Blockchain",
-                            "IoT & Embedded",
-                            "Security",
+                            "📏 Frontend",
+                            "🗃️ Backend",
+                            "🔧 Cloud, Infra & DevSecOps",
+                            "📊 Data & AI",
+                            "📝 Software Architecture"
                         ].map((topic, i) => (
                             <motion.div
                                 key={i}
@@ -140,7 +137,7 @@ export const CallForPaper = () => (
                                 className="bg-background rounded-lg p-4 shadow-md border border-navy/10 flex items-center gap-3"
                             >
                                 <div className="h-3 w-3 rounded-full bg-navy"></div>
-                                <span className="font-medium">{topic}</span>
+                                <span className="font-bold text-xl">{topic}</span>
                             </motion.div>
                         ))}
                     </div>

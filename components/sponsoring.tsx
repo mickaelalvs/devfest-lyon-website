@@ -4,7 +4,7 @@ import Link from "next/link";
 import {ArrowRight} from "lucide-react";
 
 export const Sponsoring = () => (
-    <section id="partners" className="w-full py-12 md:py-24 lg:py-32 bg-pink/5">
+    <section id="sponsoring" className="w-full py-12 md:py-24 lg:py-32 bg-pink/5">
         <div className="container px-4 md:px-6">
             <motion.div
                 initial={{opacity: 0, y: 20}}

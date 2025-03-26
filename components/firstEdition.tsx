@@ -37,7 +37,7 @@ export const FirstEdition = () => (
                 </div>
             </motion.div>
 
-            <div className="mx-auto grid max-w-6xl items-center py-12 lg:grid-cols-[3fr_2fr] lg:gap-12">
+            <div className="mx-auto grid max-w-6xl items-center py-12 lg:grid-cols-[3fr_2fr] lg:gap-12 gap-12">
                 <motion.div
                     className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl"
                     initial={{opacity: 0, x: 20}}
@@ -52,7 +52,7 @@ export const FirstEdition = () => (
                     />
                 </motion.div>
                 <motion.div
-                    className="space-y-8"
+                    className="space-y-8 sm:ml-10"
                     variants={staggerContainer}
                     initial="initial"
                     whileInView="animate"

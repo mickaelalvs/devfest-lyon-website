@@ -49,13 +49,13 @@ export const Hero = () => (
                     className="flex flex-col sm:flex-row gap-4 mt-6"
                 >
                     <Button size="lg" className="bg-primary hover:bg-primary/90 group font-semibold" asChild>
-                        <Link href="#register">
-                            S'inscrire
+                        <Link href="https://www.linkedin.com/company/devfest-lyon" target="_blank" rel="noopener noreferrer">
+                            Nous suivre
                             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                         </Link>
                     </Button>
                     <Button variant="outline" size="lg" className="border-green text-green hover:bg-green/10" asChild>
-                        <Link href="#about">En savoir plus</Link>
+                        <Link href="#sponsoring">Sponsoriser l'événement</Link>
                     </Button>
                 </motion.div>
                 <motion.div
