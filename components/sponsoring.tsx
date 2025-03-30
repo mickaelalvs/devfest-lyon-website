@@ -41,6 +41,8 @@ export const Sponsoring = () => (
                                 asChild
                             >
                                 <Link
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="https://drive.google.com/drive/folders/1oxVgRUWi45pTqygUPU15ZGXy7-MFfIVz?usp=drive_link">Pack
                                     de sponsorship
                                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"/>

@@ -139,7 +139,7 @@ export const CodeOfConduct = () => (
                     Les cas de comportements abusifs, harcelants ou tout autre comportement inacceptable peuvent être
                     signalés aux dirigeant·e·s de la communauté responsables de l&apos;application du code de conduite
                     à{" "}
-                    <span className="text-primary">contact@devfestlyon.com</span>. Toutes les plaintes seront examinées
+                    <span className="text-primary">contact@gdglyon.com</span>. Toutes les plaintes seront examinées
                     et
                     feront l&apos;objet d&apos;une enquête rapide et équitable.
                 </p>
@@ -263,6 +263,14 @@ export const CodeOfConduct = () => (
                         rel="noopener noreferrer"
                     >
                         LyonJS 🦁
+                    </a> et{" "}
+                    <a
+                        href="https://nantesjs.org/"
+                        className="text-primary hover:underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        NantesJS 🙏🏼
                     </a>
                     .
                 </p>

@@ -22,7 +22,7 @@ export const About = () => (
                     </h2>
                     <p className="text-muted-foreground md:text-xl pt-4">
                         Organisée par l'association DevFest Lyon et portée par le Google Developer Group (GDG) Lyonnais,
-                        La première édition à Lyon est une opportunité unique pour partager et échanger autour de
+                        la première édition à Lyon est une opportunité unique pour partager et échanger autour de
                         thématiques techniques dans la région lyonnaise.
                     </p>
                     <div className="space-y-4 pt-4">
