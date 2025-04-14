@@ -4,7 +4,6 @@ import Image from "next/image";
 import Mickael from "@/assets/images/team/mickael-alves.jpeg";
 import Olivier from "@/assets/images/team/olivier-perez.jpeg";
 import Anthony from "@/assets/images/team/anthony-donnet.jpeg";
-import Pascaline from "@/assets/images/team/pascaline-larose.jpeg";
 import Michael from "@/assets/images/team/michael-da-silva.jpeg";
 import Margaux from "@/assets/images/team/margaux-pirat.jpeg";
 
@@ -29,16 +28,10 @@ export const Team = () => {
             color: "#F8AB09"
         },
         {
-            name: "Pascaline Larose",
-            role: "Vice-Trésorière",
-            image: Pascaline,
-            color: "#E84436"
-        },
-        {
             name: "Michaël Da Silva",
             role: "Secrétaire",
             image: Michael,
-            color: "#EE7CAD"
+            color: "#E84436"
         },
         {
             name: "Margaux Pirat",

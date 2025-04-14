@@ -4,7 +4,7 @@ import Link from "next/link";
 import {Calendar, Clock, Mic, Send, Star} from "lucide-react";
 
 export const CallForPaper = () => (
-    <section id="speakers" className="w-full py-12 md:py-24 lg:py-32 bg-navy/5">
+    <section id="call-for-papers" className="w-full py-12 md:py-24 lg:py-32 bg-navy/5">
         <div className="container px-4 md:px-6">
             <motion.div
                 initial={{opacity: 0, y: 20}}
@@ -38,7 +38,8 @@ export const CallForPaper = () => (
                     <div
                         className="relative bg-background rounded-full px-6 py-3 border border-navy/10 inline-flex items-center gap-2">
                         <Calendar className="h-5 w-5 text-navy"/>
-                        <span className="font-medium text-navy">Date limite du CFP : 25 juin 2025</span>
+                        <span
+                            className="font-medium text-navy">Date du CFP : <strong>Du 16 avril au 15 juin 2025</strong></span>
                     </div>
                 </div>
             </motion.div>
@@ -58,8 +59,8 @@ export const CallForPaper = () => (
                             <h3 className="text-2xl font-bold mb-4 text-navy">Soumettre votre proposition</h3>
                             <p className="text-muted-foreground mb-6">
                                 Nous recherchons des conférenciers pour partager leurs idées sur le développement web,
-                                mobile, cloud, AI/ML, DevOps, et et bien plus encore. Notre CFP est maintenant ouvert
-                                jusqu'au 25 juin 2025.
+                                mobile, cloud, AI/ML, DevOps, et et bien plus encore. Notre CFP sera bientôt ouvert, et
+                                cela jusqu'au 15 juin 2025.
                             </p>
 
                             <div className="space-y-4">
@@ -82,8 +83,7 @@ export const CallForPaper = () => (
                                     <div>
                                         <h4 className="font-medium">Avantages pour les conférenciers</h4>
                                         <p className="text-sm text-muted-foreground">
-                                            Billet gratuit pour la conférence, dîner des conférenciers et assistance
-                                            éventuelle pour les déplacements.
+                                            Billet gratuit pour la conférence
                                         </p>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@ export const CallForPaper = () => (
                                         <h4 className="font-medium">Processus de sélection</h4>
                                         <p className="text-sm text-muted-foreground">
                                             Toutes les candidatures sont examinées par notre comité et les notifications
-                                            sont envoyées au plus tard le 31 juillet, 2025
+                                            sont envoyées le 3 juillet, 2025
                                         </p>
                                     </div>
                                 </div>
@@ -104,8 +104,8 @@ export const CallForPaper = () => (
 
                             <div className="mt-8">
                                 <Button size="lg" className="bg-navy hover:bg-navy/90 text-white group" asChild>
-                                    <Link href="#cfp-form">
-                                        Submit Your Talk
+                                    <Link href="https://conference-hall.io/devfest-lyon-2025">
+                                        Soumettre ma proposition
                                         <Send className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"/>
                                     </Link>
                                 </Button>
@@ -126,7 +126,7 @@ export const CallForPaper = () => (
                         {[
                             "📏 Frontend",
                             "🗃️ Backend",
-                            "🔧 Cloud, Infra & DevSecOps",
+                            "🔧 Cloud, Infra & DevOps",
                             "📊 Data & AI",
                             "📝 Software Architecture"
                         ].map((topic, i) => (

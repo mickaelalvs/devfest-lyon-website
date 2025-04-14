@@ -47,8 +47,20 @@ export const Footer = () => (
                             </Link>
                         </li>
                         <li>
+                            <Link href="#sponsoring"
+                                  className="text-muted-foreground hover:text-navy transition-colors">
+                                Call for Papers
+                            </Link>
+                        </li>
+                        <li>
                             <Link href="#team" className="text-muted-foreground hover:text-red transition-colors">
                                 L'équipe organisatrice
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#sponsoring"
+                                  className="text-muted-foreground hover:text-pink transition-colors">
+                                Billetterie
                             </Link>
                         </li>
                     </ul>

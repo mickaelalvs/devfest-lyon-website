@@ -1,21 +1,18 @@
 import {motion} from "framer-motion";
-import {Button} from "@/components/ui/button";
-import Link from "next/link";
-import {ArrowRight, Users} from "lucide-react";
-import Image from "next/image";
+import {Users} from "lucide-react";
 
 export const Register = () => (
-    <section id="register" className="w-full py-12 md:py-24 lg:py-32 bg-red/5">
+    <section id="billeterie" className="w-full py-12 md:py-24 lg:py-32 bg-red/5">
         <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
                 <motion.div
                     initial={{opacity: 0, x: -50}}
                     whileInView={{opacity: 1, x: 0}}
                     viewport={{once: true}}
                     transition={{duration: 0.5}}
-                    className="flex flex-col justify-center space-y-4"
+                    className="flex flex-col justify-center align-middle space-y-4"
                 >
-                    <div className="space-y-2 flex flex-col items-start gap-2">
+                    <div className="space-y-2 flex flex-col items-center gap-2">
                         <div className="inline-block rounded-lg bg-pink/10 px-3 py-1 text-sm text-pink">
                             Nombre de places limité
                         </div>
@@ -23,45 +20,12 @@ export const Register = () => (
                             S'inscrire au DevFest Lyon 2025
                         </h2>
                         <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                            Réservez votre place à l'événement. Les billets sont disponibles dès maintenant !
+                            Vous pourrez bientôt réserver votre place à l'événement. Les billets seront disponible le 2 juin 2025 !
                         </p>
                     </div>
-                    <div className="flex flex-col gap-2 min-[400px]:flex-row pt-8">
-                        <Button
-                            size="lg"
-                            className="bg-linear-to-r from-red to-pink hover:opacity-90 text-white border-0 group"
-                            asChild
-                        >
-                            <Link href="#tickets">
-                                Obtenir un billet
-                                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"/>
-                            </Link>
-                        </Button>
-                        <Button variant="outline" size="lg" className="border-pink text-pink hover:bg-pink/10" asChild>
-                            <Link href="#group-tickets">Billets de groupe</Link>
-                        </Button>
-                    </div>
-                    <div className="flex items-center space-x-2 text-muted-foreground">
+                    <div className="flex items-center justify-center align-middle space-x-2 text-muted-foreground">
                         <Users className="h-5 w-5 text-pink"/>
-                        <span>Capacité limitée - Inscrivez-vous rapidement pour garantir votre place</span>
-                    </div>
-                </motion.div>
-                <motion.div
-                    initial={{opacity: 0, x: 50}}
-                    whileInView={{opacity: 1, x: 0}}
-                    viewport={{once: true}}
-                    transition={{duration: 0.5}}
-                >
-                    <div className="relative">
-                        <div
-                            className="absolute -inset-1 bg-linear-to-r from-red to-pink rounded-lg blur-sm opacity-30"></div>
-                        <Image
-                            src="/placeholder.svg?height=400&width=600"
-                            width={600}
-                            height={400}
-                            alt="DevFest Lyon Attendees"
-                            className="relative rounded-lg object-cover shadow-xl"
-                        />
+                        <span>Capacité limitée - Soyez les premiers à l'ouverture pour garantir votre place !</span>
                     </div>
                 </motion.div>
             </div>

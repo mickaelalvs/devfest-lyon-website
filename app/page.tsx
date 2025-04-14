@@ -7,6 +7,8 @@ import {Team} from "@/components/team";
 import {Sponsoring} from "@/components/sponsoring";
 import {Footer} from "@/components/footer";
 import {Header} from "@/components/header";
+import {Register} from "@/components/register";
+import {CallForPaper} from "@/components/callForPaper";
 
 export default function Home() {
     return (
@@ -16,7 +18,9 @@ export default function Home() {
             <FirstEdition />
             <About />
             <Sponsoring />
+            <CallForPaper />
             <Team />
+            <Register />
             <Footer />
         </main>
     );
