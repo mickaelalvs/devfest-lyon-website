@@ -20,7 +20,7 @@ export const Register = () => (
                             S'inscrire au DevFest Lyon 2025
                         </h2>
                         <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                            Vous pourrez bientôt réserver votre place à l'événement. Les billets seront disponibles le 2 juin 2025 !
+                            Vous pourrez bientôt réserver votre place à l'événement. Les billets seront disponibles très prochainement ! Restez connectés sur nos réseaux pour ne pas louper l’info !
                         </p>
                     </div>
                     <div className="flex items-center justify-center align-middle space-x-2 text-muted-foreground">
