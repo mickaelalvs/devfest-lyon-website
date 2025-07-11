@@ -96,7 +96,7 @@ export const CallForPaper = () => (
                                         <h4 className="font-medium">Processus de sélection</h4>
                                         <p className="text-sm text-muted-foreground">
                                             Toutes les candidatures sont examinées par notre comité et les notifications
-                                            sont envoyées le 3 juillet 2025
+                                            seront envoyées début août.
                                         </p>
                                     </div>
                                 </div>
