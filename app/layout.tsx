@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 const title = "DevFest Lyon 2025";
-const description = "Devfest Lyon, conférence technique destinée à la communauté tech une fois par an dans la ville des lumières 🦁";
+const description = "DevFest Lyon, conférence technique destinée à la communauté tech une fois par an dans la ville des lumières 🦁";
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://devfest.gdglyon.com'),
