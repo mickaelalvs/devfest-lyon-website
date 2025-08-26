@@ -20,17 +20,18 @@ export const Register = () => (
                             S'inscrire au DevFest Lyon 2025
                         </h2>
                         <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                            Vous pourrez bientôt réserver votre place à l'événement. Les billets seront disponibles très
-                            prochainement ! Restez connectés sur nos réseaux pour ne pas louper l’info !
+                            Vous pourrez bientôt réserver d'autres places pour l'événement. La première vague de billets
+                            est partie en un temps record ! Restez connectés sur nos réseaux pour ne pas louper l’info !
                         </p>
                     </div>
                     <div className="flex items-center justify-center align-middle space-x-2 text-muted-foreground">
                         <Users className="h-5 w-5 text-pink"/>
-                        <span>Capacité limitée - Soyez les premiers à l'ouverture pour garantir votre place !</span>
+                        <span>Capacité limitée - Une deuxième vague de billets sera bientôt disponible… mais attention, il en reste peu - Soyez les premiers à l'ouverture pour garantir votre place !</span>
                     </div>
                     <div className="flex flex-col items-center justify-center space-y-4 mt-8">
                         <p className="text-pink font-bold text-xl pb-8">
-                            Mercredi 25 juin à 10h00, les 100 premières places pour le DevFest Lyon seront mises en ligne 🥳
+                            Rendez-vous début septembre pour l’ouverture des ventes des dernières places
+                            pour le DevFest Lyon 🎉
                         </p>
                         <iframe id="haWidget"
                                 src="https://www.helloasso.com/associations/devfest-lyon/evenements/devfest-lyon-2025/widget-bouton"

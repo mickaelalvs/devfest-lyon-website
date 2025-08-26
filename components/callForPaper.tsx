@@ -22,6 +22,9 @@ export const CallForPaper = () => (
                     <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                         Partagez vos connaissances et votre expérience avec la communauté
                     </p>
+                    <h3 className="text-1xl font-black tracking-tighter sm:text-2xl md:text-3xl my-8 text-white bg-navy p-4">
+                       Le call for papers est fermé, le prgramme sera bientôt annoncé !
+                    </h3>
                 </div>
             </motion.div>
 
