@@ -153,7 +153,7 @@ export const roomASchedule: Talk[] = [
     },
     {
         time: "16h30",
-        endTime: "15h10",
+        endTime: "17h10",
         title: "Accessibilité : cochez les cases ✅… et ratez la cible 🎯",
         theme: "📏 Frontend",
         speakers: [{

@@ -27,55 +27,26 @@ export const Footer = () => (
                     </p>
                 </div>
                 <div className="space-y-4">
+                </div>
+                <div className="space-y-4">
                     <h3 className="text-sm font-medium">Liens</h3>
                     <ul className="space-y-2 text-sm">
                         <li>
-                            <Link href="#about" className="text-muted-foreground hover:text-primary transition-colors">
-                                Première édition
+                            <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
+                                Accueil
                             </Link>
                         </li>
                         <li>
-                            <Link href="#first-edition"
-                                  className="text-muted-foreground hover:text-red transition-colors">
-                                C'est quoi cet événement ?
+                            <Link href="/schedule" className="text-muted-foreground hover:text-red transition-colors">
+                                Programme
                             </Link>
                         </li>
-                        <li>
-                            <Link href="#sponsoring"
-                                  className="text-muted-foreground hover:text-yellow transition-colors">
-                                Sponsoring
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#call-for-papers"
-                                  className="text-muted-foreground hover:text-navy transition-colors">
-                                Call for Papers
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#team" className="text-muted-foreground hover:text-red transition-colors">
-                                L'équipe organisatrice
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#sponsoring"
-                                  className="text-muted-foreground hover:text-pink transition-colors">
-                                Billetterie
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
-                <div className="space-y-4">
-                    <h3 className="text-sm font-medium">Autres pages</h3>
-                    <ul className="space-y-2 text-sm">
-                        <li>
-                            <Link
-                                href="/code-of-conduct"
-                                className="text-muted-foreground hover:text-foreground transition-colors"
-                            >
-                                Code de conduite
-                            </Link>
-                        </li>
+                        <Link
+                            href="/code-of-conduct"
+                            className="text-muted-foreground hover:text-foreground transition-colors"
+                        >
+                            Code de conduite
+                        </Link>
                     </ul>
                 </div>
                 <div className="space-y-4">
@@ -90,7 +61,7 @@ export const Footer = () => (
                         <Link href="https://bsky.app/profile/devfestlyon.bsky.social"
                               target="_blank" rel="noopener noreferrer"
                               className="text-muted-foreground hover:text-red transition-colors flex items-end">
-                            <Image src={BlueskyIcon} alt="Bluesky icon" width={20} height={20} />
+                            <Image src={BlueskyIcon} alt="Bluesky icon" width={20} height={20}/>
                             <span className="sr-only">BlueskyIcon</span>
                         </Link>
                     </div>
