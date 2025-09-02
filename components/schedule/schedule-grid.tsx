@@ -39,9 +39,18 @@ export function ScheduleGrid() {
     }
 
     const allItems = [...breaks, ...roomASchedule, ...roomBSchedule]
+    // Fonction utilitaire pour convertir "13h30" en minutes pour le tri
+    const parseFrenchTime = (time: string) => {
+        const match = time.match(/(\d{1,2})h(\d{2})/)
+        if (!match) return 0
+        const hours = parseInt(match[1], 10)
+        const minutes = parseInt(match[2], 10)
+        return hours * 60 + minutes
+    }
+
     const timeSlots = Array.from(new Set(allItems.map((item) => item.time))).sort((a, b) => {
-        const timeA = new Date(`1970/01/01 ${a}`).getTime()
-        const timeB = new Date(`1970/01/01 ${b}`).getTime()
+        const timeA = parseFrenchTime(a)
+        const timeB = parseFrenchTime(b)
         return timeA - timeB
     })
 
@@ -50,7 +59,8 @@ export function ScheduleGrid() {
     }
 
     const findRoomAItemByTime = (time: string) => {
-        if (time === "1:00 PM") {
+        // Vérifier si c'est l'heure du lunchTalk
+        if (time === lunchTalk.time) {
             return lunchTalk
         }
 
@@ -66,7 +76,7 @@ export function ScheduleGrid() {
             <div className="hidden md:block w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-15">
                 {/* Grid Header */}
                 <div className="grid grid-cols-[150px_1fr_1fr] gap-4 mb-4">
-                    <div className="font-semibold text-gray-700 text-center py-4">Time</div>
+                    <div className="font-semibold text-gray-700 text-center py-4">Horaires</div>
                     <div
                         className="text-white p-15 rounded-lg text-center relative overflow-hidden"
                         style={{
@@ -101,7 +111,7 @@ export function ScheduleGrid() {
                                 <div key={index} className="grid grid-cols-[150px_1fr] gap-4">
                                     <div className="flex flex-col items-center justify-center">
                                         <span className="text-lg font-semibold text-gray-700">{time}</span>
-                                        <span className="text-sm text-gray-500">{breakItem.endTime}</span>
+                                        <span className="text-md font-semibold text-gray-500">{breakItem.endTime}</span>
                                     </div>
                                     <div className="col-span-1">
                                         <BreakCard breakItem={breakItem} onClick={() => handleTalkClick(lunchTalk)}/>

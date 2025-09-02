@@ -2,26 +2,26 @@ import type {Talk, Break} from "@/types/schedule"
 
 export const breaks: Break[] = [
     {
-        time: "10:15 AM",
-        endTime: "10:45 AM",
+        time: "10h15",
+        endTime: "10h45",
         title: "Pause",
         type: "break" as const,
     },
     {
-        time: "12:05 PM",
-        endTime: "1:30 PM",
+        time: "12h05",
+        endTime: "13h30",
         title: "Déjeuner",
         type: "break" as const,
     },
     {
-        time: "3:50 PM",
-        endTime: "4:20 PM",
+        time: "15h50",
+        endTime: "16h20",
         title: "Pause",
         type: "break" as const,
     },
     {
-        time: "6:00 PM",
-        endTime: "7:30 PM",
+        time: "18h00",
+        endTime: "19h30",
         title: "Meet & Greet",
         type: "break" as const,
     },
@@ -29,26 +29,26 @@ export const breaks: Break[] = [
 
 export const roomASchedule: Talk[] = [
     {
-        time: "9:00 AM",
-        endTime: "9:15 AM",
+        time: "9h00",
+        endTime: "9h45",
         title: "Ouverture",
         speakers: [{
             name: "L'équipe DevFest Lyon",
             avatar: "https://devfest.gdglyon.com/shortcut.png"
         }],
     },
+    // {
+    //     time: "9h15",
+    //     endTime: "9h45",
+    //     title: "Keynote d'ouverture",
+    //     speakers: [{
+    //         name: "Anonymous",
+    //         avatar: "https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/anonymous-512.png"
+    //     }],
+    // },
     {
-        time: "9:15 AM",
-        endTime: "9:45 AM",
-        title: "Keynote d'ouverture",
-        speakers: [{
-            name: "Anonymous",
-            avatar: "https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/anonymous-512.png"
-        }],
-    },
-    {
-        time: "9:55 AM",
-        endTime: "10:15 AM",
+        time: "9h55",
+        endTime: "10h15",
         title: "Démêler vrais produits et hallucinations, REX d’un agent téléphonique chercheur de chaussettes",
         theme: "📏 Data & AI",
         speakers: [
@@ -66,8 +66,8 @@ export const roomASchedule: Talk[] = [
             "Ce retour d’expérience s’adresse à toutes celles et ceux qui s’intéressent à la recherche hybride (full-text + IA), les LLMs orchestrés en agents spécialisés, la voix comme interface utilisateur, et aux défis derrière la mise en production de ce type d’outil."
     },
     {
-        time: "10:45 AM",
-        endTime: "11:35 AM",
+        time: "10h45",
+        endTime: "11h35",
         title: "Let’s play Factorio",
         theme: "📝 Software Architecture",
         speakers: [{
@@ -91,8 +91,8 @@ export const roomASchedule: Talk[] = [
             "The Factory Must Grow."
     },
     {
-        time: "11:45 AM",
-        endTime: "12:05 PM",
+        time: "11h45",
+        endTime: "12h05",
         title: "C’était dans quel épisode déjà ? Bref, j’ai indexé une série culte",
         theme: "📊 Data & AI",
         speakers: [
@@ -107,8 +107,8 @@ export const roomASchedule: Talk[] = [
             "Dans ce talk, je vous montrerai comment transformer n'importe quelle playlist YouTube en une expérience de recherche immersive. On parlera d'outils en ligne de commande, de services en SaaS, d'optimisation front-end et un peu d'IA."
     },
     {
-        time: "1:30 PM",
-        endTime: "1:50 PM",
+        time: "13h30",
+        endTime: "13h50",
         title: "Les gardiens des données à l’ère de l’IA",
         theme: "📊 Data & AI",
         speakers: [{
@@ -118,8 +118,8 @@ export const roomASchedule: Talk[] = [
         description: "Bloquer les accès aux solutions d'intelligence artificielle par peur de fuite de données est-ce vraiment une solution ? A l’ère de l’IA, comment protéger les données confidentielles et le savoir-faire des entreprises ? L'OWASP, l'ANSSI mettent en garde sur les risques de fuite de données sans vraiment fournir les solutions. Dans un monde où les données sont le trésor le plus précieux des entreprises, comment les équipes de cybersécurité vont continuer à assurer la confidentialité des données? A La Poste, on pense qu'il faut plutôt apporter des solutions que de bloquer les accès. Les solutions autour de LLM Guard et Presidio nous aident à anonymiser les données et à en tirer profit des IAs, assurant que les données sensibles restent hors de portée des cybercriminels. LLM Guard permet de rajouter des contrôles sur les prompts d'entrée mais aussi sur les réponses des IAs, en protégeant ainsi contre les attaques type prompt injection et on peut même construire nos propres règles pour compléter. Je vous propose aussi une démo de Presidio sur comment anonymiser les données et comment détecter des données sensibles dans des images générées à partir d'une IA."
     },
     {
-        time: "2:00 PM",
-        endTime: "2:50 PM",
+        time: "14h00",
+        endTime: "14h50",
         title: "La révolution WebGPU : toute la puissance du GPU, sur le web et en dehors 🚀",
         theme: "📏 Frontend",
         speakers: [{name: "Julien Sulpis", avatar: "https://avatars2.githubusercontent.com/u/22420399?v=4"}],
@@ -130,8 +130,8 @@ export const roomASchedule: Talk[] = [
             "Des graphismes 3D aux simulations physiques en passant par l'IA ou le traitement d'image, vous aurez de quoi imaginer des cas d’utilisation possibles de cette API encore peu supportée, mais à l'avenir prometteur ✨"
     },
     {
-        time: "3:00 PM",
-        endTime: "3:50 PM",
+        time: "15h00",
+        endTime: "15h50",
         title: "45 min pour mettre son application à genoux : le guide complet du test de charge",
         theme: "🗃️ Backend",
         speakers: [{
@@ -152,8 +152,8 @@ export const roomASchedule: Talk[] = [
             "L’objectif de ce talk est d’offrir cette première maitrise qui permettra à chacun de repartir avec une nouvelle compétence : la capacité de mettre en oeuvre un test de charge sur un environnement complexe (un service avec DB, une API, et de l’authentification SSO)."
     },
     {
-        time: "4:20 PM",
-        endTime: "5:10 PM",
+        time: "16h30",
+        endTime: "15h10",
         title: "Accessibilité : cochez les cases ✅… et ratez la cible 🎯",
         theme: "📏 Frontend",
         speakers: [{
@@ -176,8 +176,8 @@ export const roomASchedule: Talk[] = [
             "Animée par Vanessa, consultante et formatrice en accessibilité, et Gabriel, développeur fullstack, cette session s’adresse aux curieuses et curieux comme à celles et ceux qui veulent enfin passer à l’action, pour participer à rendre le monde numérique plus inclusif."
     },
     {
-        time: "5:20 PM",
-        endTime: "5:40 PM",
+        time: "17h20",
+        endTime: "17h40",
         title: "Embellir des QR Codes à l’ère de la GenAI",
         theme: "📊 Data & AI",
         speakers: [{
@@ -191,8 +191,8 @@ export const roomASchedule: Talk[] = [
             "Le tout en local sur un PC. Plongez dans un futur où chaque scan devient une expérience visuelle engageante."
     },
     {
-        time: "5:45 PM",
-        endTime: "6:00 PM",
+        time: "17h45",
+        endTime: "18h00",
         title: "Mot de la fin",
         speakers: [{
             name: "L'équipe DevFest Lyon",
@@ -203,14 +203,14 @@ export const roomASchedule: Talk[] = [
 
 export const roomBSchedule: Talk[] = [
     {
-        time: "9:55 AM",
-        endTime: "10:15 AM",
+        time: "9h55",
+        endTime: "10h15",
         title: "L’API viewTransition : une révolution pour le web ?",
         theme: "📏 Frontend",
         speakers: [
             {
                 name: "Théo Gianella",
-                avatar: "https://lh3.googleusercontent.com/a/ACg8ocJa895bxi87TFcNsEPk4B44wFtCDttC2sPJdhhxt-Cj4Q=s96-c"
+                avatar: "https://ca.slack-edge.com/T02ARLB3P-U061PUWJY0Z-2bcd85d9e329-512"
             },
         ],
         description: "Vous aimeriez pouvoir ajouter des animations à votre front-end web afin de proposer une expérience plus fluide à vos utilisateurs mais vous êtes découragés par la complexité de la tâche ? Vous maîtrisez comme personne transitions CSS, keyframes et animations FLIP mais vous en avez marre de gérer les problèmes d'interface et d'accessibilité causés par ces techniques ? Vous développez un site multi-pages full-stack plus traditionnel (rails, express, laravel...) et vous aimeriez améliorer la navigation entre les différentes pages de votre site ?\n" +
@@ -220,8 +220,8 @@ export const roomBSchedule: Talk[] = [
             "Au programme, je montrerai comment fonctionne cette API et quelles sont les meilleures pratiques pour l'utiliser dans tous les contextes. Nous verrons ensemble que l'API viewTransition permet de dépasser des obstacles jusqu'ici infranchissables dans le développement web !"
     },
     {
-        time: "10:45 AM",
-        endTime: "11:35 AM",
+        time: "15h00",
+        endTime: "15h50",
         title: "Docker Bake, élégance et standardisation pour le build de vos images Docker",
         theme: "🔧 Cloud, Infra & DevOps",
         speakers: [{name: "Mazlum Tosun", avatar: "https://avatars.githubusercontent.com/tosun-si"}],
@@ -238,8 +238,8 @@ export const roomBSchedule: Talk[] = [
             "Après ce talk, vous aurez (on l’espère !) envie de laisser tomber vos docker build à rallonge pour adopter Docker Bake dans vos projets et rendre vos builds plus simples, élégants et efficaces."
     },
     {
-        time: "11:45 AM",
-        endTime: "12:05 PM",
+        time: "11h45",
+        endTime: "12h05",
         title: "Déchaînez le Chaos : Tester la résilience de votre application avec Chaos Monkey",
         theme: "🗃️ Backend",
         speakers: [
@@ -252,8 +252,8 @@ export const roomBSchedule: Talk[] = [
             "Dans ce talk, nous explorerons comment Chaos Monkey for Spring Boot permet de simuler des comportement inattendu au sein de votre application Spring Boot ."
     },
     {
-        time: "1:30 PM",
-        endTime: "1:50 PM",
+        time: "13h30",
+        endTime: "13h50",
         title: "Coder plus pour coder moins : outils maison, IA et carnet de notes pour doubler l’efficacité",
         theme: "📝 Software Architecture",
         speakers: [{
@@ -280,8 +280,8 @@ export const roomBSchedule: Talk[] = [
             "Mon objectif ? Vous partager ces solutions et, mieux encore, vous donner envie de lancer votre propre quête!"
     },
     {
-        time: "2:00 PM",
-        endTime: "2:50 PM",
+        time: "14h00",
+        endTime: "14h50",
         title: "Et si votre prochain script… c’était un prompt ? Découvrez GenAIScript!",
         theme: "📊 Data & AI",
         speakers: [{name: "Yohan Lasorsa", avatar: "https://avatars0.githubusercontent.com/u/593151?v=4"}],
@@ -294,8 +294,8 @@ export const roomBSchedule: Talk[] = [
             "Dans ce talk (spoiler: il y aura principalement du live-coding), vous découvrirez comment rendre l'automatisation à base d'IA aussi naturelle que d’écrire du JS. Code reviews, generation de changelog, veille techno, refactoring... pas besoin d’être expert en IA pour gagner du temps au quotidien!"
     },
     {
-        time: "3:00 PM",
-        endTime: "3:50 PM",
+        time: "10h45",
+        endTime: "11h35",
         title: "Développer un opérateur Kubernetes en Java, challenge accepted !",
         theme: "🔧 Cloud, Infra & DevOps",
         speakers: [{name: "Stéphane Philippart", avatar: "https://avatars0.githubusercontent.com/u/26224751?v=4"}],
@@ -312,8 +312,8 @@ export const roomBSchedule: Talk[] = [
             "A la fin de ce talk, vous aurez les différents éléments pour savoir si vous avez besoin développer un opérateur, comment le développer, et choisir entre le faire en Java ou dans un autre langage !"
     },
     {
-        time: "4:20 PM",
-        endTime: "5:10 PM",
+        time: "16h30",
+        endTime: "17h10",
         title: "Construire des serveurs MCP plus intelligents : approches génériques vs. spécifiques au domaine",
         theme: "📊 Data & AI",
         speakers: [{
@@ -330,13 +330,13 @@ export const roomBSchedule: Talk[] = [
             "Rejoignez-nous pour découvrir comment exploiter la puissance des LLMs avec des serveurs MCP, sans perdre le contrôle."
     },
     {
-        time: "5:20 PM",
-        endTime: "5:40 PM",
+        time: "17h20",
+        endTime: "17h40",
         title: "Comment trois jeunes spéléologues sont descendus dans les entrailles de Linux",
         theme: "🔧 Software Architecture",
         speakers: [{
             name: "Florian Forestier",
-            avatar: "https://cdn.bsky.app/img/avatar/plain/did:plc:qxjqqquraxm6u4gdlptoqivb/bafkreibuavpdvfwzceojwxjxjpjvxjfrruezuh7a3bxxybl6fpqczgyrsm@jpeg"
+            avatar: "https://ca.slack-edge.com/T02ARLB3P-U0871E3RJSW-4d37753fe348-512"
         }],
         description: "S'il y a bien un projet utilisé à l'échelle mondiale, c'est le Kernel Linux. Un énorme morceau de code, que celles et ceux qui en ont entendu parler considèrent comme un code mystique, inaccessible au commun des mortels. Il n'en est pourtant rien : derrière ce nom qui rebute, se cache en réalité du code, des gens, des communautés. Et comme tout code, on y retrouve des features à coder, des bugs à corriger, des smells à nettoyer.\n" +
             "\n" +
@@ -347,8 +347,8 @@ export const roomBSchedule: Talk[] = [
 ]
 
 export const lunchTalk: Talk = {
-    time: "12:30 PM",
-    endTime: "1:20 PM",
+    time: "12h30",
+    endTime: "13h20",
     title: "Speechless Live Original ✨",
     theme: "Autre 😍",
     speakers: [{
