@@ -39,7 +39,7 @@ export const Hero = () => (
                         />
                     </div>
                     <h1 className="mx-auto max-w-[800px] text-muted-foreground md:text-2xl text-balance">
-                        Devfest Lyon, conférence technique destinée à la communauté tech une fois par an dans la ville des lumières 🦁
+                        DevFest Lyon, conférence technique destinée à la communauté tech une fois par an dans la ville des lumières 🦁
                     </h1>
                 </motion.div>
                 <motion.div
