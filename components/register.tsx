@@ -26,11 +26,11 @@ export const Register = () => (
                     </div>
                     <div className="flex items-center justify-center align-middle space-x-2 text-muted-foreground">
                         <Users className="h-5 w-5 text-pink"/>
-                        <span>Capacité limitée - Une deuxième vague de billets sera bientôt disponible… mais attention, il en reste peu - Soyez les premiers à l'ouverture pour garantir votre place !</span>
+                        <span>Capacité limitée - La deuxième vague aura lieu le <span className="font-black">17 septembre à 10h00</span>… mais attention, il en reste peu - Soyez les premiers à l'ouverture pour garantir votre place !</span>
                     </div>
                     <div className="flex flex-col items-center justify-center space-y-4 mt-8">
                         <p className="text-pink font-bold text-xl pb-8">
-                            Rendez-vous début septembre pour l’ouverture des ventes des dernières places
+                            Rendez-vous le <span className="font-black">17 septembre à 10h00</span> pour l’ouverture des ventes des dernières places
                             pour le DevFest Lyon 🎉
                         </p>
                         <iframe id="haWidget"

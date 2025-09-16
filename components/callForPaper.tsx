@@ -1,7 +1,7 @@
 import {motion} from "framer-motion";
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
-import {Calendar, Clock, Mic, Send, Star} from "lucide-react";
+import {ArrowRight, Calendar, Clock, Mic, Send, Star} from "lucide-react";
 
 export const CallForPaper = () => (
     <section id="call-for-papers" className="w-full py-12 md:py-24 lg:py-32 bg-navy/5">
@@ -22,9 +22,12 @@ export const CallForPaper = () => (
                     <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                         Partagez vos connaissances et votre expérience avec la communauté
                     </p>
-                    <h3 className="text-1xl font-black tracking-tighter sm:text-2xl md:text-3xl my-8 text-white bg-navy p-4">
-                       Le call for papers est fermé, le prgramme sera bientôt annoncé !
-                    </h3>
+                    <Button size="lg" className="bg-navy hover:bg-navy/90 text-white group group text-xl font-bold mt-8 px-8 py-4" asChild>
+                        <Link href="/schedule" target="_blank" rel="noopener noreferrer">
+                            Voir le programme
+                            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"/>
+                        </Link>
+                    </Button>
                 </div>
             </motion.div>
 

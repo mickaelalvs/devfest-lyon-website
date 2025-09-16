@@ -7,7 +7,6 @@ import {Team} from "@/components/team";
 import {Footer} from "@/components/footer";
 import {Header} from "@/components/header";
 import {Register} from "@/components/register";
-import {CallForPaper} from "@/components/callForPaper";
 import { Partners } from "@/components/partners";
 
 export default function Home() {
@@ -17,9 +16,8 @@ export default function Home() {
             <Hero />
             <FirstEdition />
             <About />
-            <Partners />
             <Register />
-            <CallForPaper />
+            <Partners />
             <Team />
             <Footer />
         </main>

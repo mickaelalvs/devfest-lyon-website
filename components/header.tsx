@@ -20,9 +20,9 @@ export const Header = () => (
                     </div>
                 </Link>
                 <nav className="flex gap-2">
-                    <Link href="/"
+                    <Link href="/#billetterie"
                           className="text-s text-center font-medium transition-colors hover:text-red hover:bg-red/5 px-8 py-3 rounded-lg my-auto max-[650px]:px-2 max-[650px]:py-2 max-[650px]:text-xs">
-                        Accueil
+                        Billetterie
                     </Link>
                     <Link href="/schedule"
                           className="text-s text-center font-medium transition-colors hover:text-navy hover:bg-green/5 px-8 py-3 rounded-lg my-auto max-[650px]:px-2 max-[650px]:py-2 max-[650px]:text-xs">
