@@ -152,7 +152,7 @@ export const roomASchedule: Talk[] = [
             "L’objectif de ce talk est d’offrir cette première maitrise qui permettra à chacun de repartir avec une nouvelle compétence : la capacité de mettre en oeuvre un test de charge sur un environnement complexe (un service avec DB, une API, et de l’authentification SSO)."
     },
     {
-        time: "16h30",
+        time: "16h20",
         endTime: "17h10",
         title: "Accessibilité : cochez les cases ✅… et ratez la cible 🎯",
         theme: "📏 Frontend",
@@ -312,7 +312,7 @@ export const roomBSchedule: Talk[] = [
             "A la fin de ce talk, vous aurez les différents éléments pour savoir si vous avez besoin développer un opérateur, comment le développer, et choisir entre le faire en Java ou dans un autre langage !"
     },
     {
-        time: "16h30",
+        time: "16h20",
         endTime: "17h10",
         title: "Construire des serveurs MCP plus intelligents : approches génériques vs. spécifiques au domaine",
         theme: "📊 Data & AI",
