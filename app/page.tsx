@@ -16,8 +16,8 @@ export default function Home() {
             <Hero />
             <FirstEdition />
             <About />
-            <Register />
             <Partners />
+            <Register />
             <Team />
             <Footer />
         </main>

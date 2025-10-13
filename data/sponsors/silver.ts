@@ -3,7 +3,7 @@ import sogetiLogo from '@/assets/images/sponsors/sogeti.svg';
 import agixisLogo from '@/assets/images/sponsors/agixis.svg';
 import webnetLogo from '@/assets/images/sponsors/webnet.svg';
 import decathlon from '@/assets/images/sponsors/Decathlon.svg';
-// import indy from '@/assets/images/sponsors/Indy.png';
+import indy from '@/assets/images/sponsors/Indy.png';
 import peaks from '@/assets/images/sponsors/Peaks.webp';
 import bedrock from '@/assets/images/sponsors/Bedrock.svg';
 
@@ -44,14 +44,14 @@ export const silverSponsors: Sponsor[] = [
         logo: peaks.src,
         website: "https://peaks.fr/"
     },
-    // {
-    //     name: "Indy",
-    //     logo: indy.src,
-    //     website: "https://www.indy.fr/"
-    // },
     {
         name: "Bedrock",
         logo: bedrock.src,
         website: "https://bedrockstreaming.com/"
+    },
+    {
+        name: "Indy",
+        logo: indy.src,
+        website: "https://www.indy.fr/"
     }
 ]; 

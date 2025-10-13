@@ -20,15 +20,15 @@ export const Header = () => (
                     </div>
                 </Link>
                 <nav className="flex gap-2">
-                    <Link href="/#billetterie"
+                    <Link href="/#partners"
                           className="text-s text-center font-medium transition-colors hover:text-red hover:bg-red/5 px-8 py-3 rounded-lg my-auto max-[650px]:px-2 max-[650px]:py-2 max-[650px]:text-xs">
-                        Billetterie
+                        Nos sponsors
                     </Link>
                     <Link href="/schedule"
                           className="text-s text-center font-medium transition-colors hover:text-navy hover:bg-green/5 px-8 py-3 rounded-lg my-auto max-[650px]:px-2 max-[650px]:py-2 max-[650px]:text-xs">
                         Programme
                     </Link>
-                    <Link href="code-of-conduct"
+                    <Link href="/code-of-conduct"
                           className="text-s text-center font-medium transition-colors hover:text-pink hover:bg-pink/5 px-8 py-3 rounded-lg my-auto max-[650px]:px-2 max-[650px]:py-2 max-[650px]:text-xs">
                         Code de conduite
                     </Link>

@@ -5,6 +5,8 @@ import {goldSponsors} from "@/data/sponsors/gold";
 import {silverSponsors} from "@/data/sponsors/silver";
 import {meetAndGreetSponsors} from "@/data/sponsors/meetAndGreet";
 
+import Google from '@/assets/images/sponsors/google.webp';
+
 export const Partners = () => (
     <section id="partners" className="w-full px-10 py-12 md:py-24 lg:py-32 bg-yellow/5">
         <div className="container px-4 md:px-6">
@@ -115,6 +117,34 @@ export const Partners = () => (
                                     </motion.div>
                                 </Link>
                             ))}
+                        </div>
+                    </motion.div>
+                    <motion.div
+                        initial={{opacity: 0, y: 20}}
+                        whileInView={{opacity: 1, y: 0}}
+                        viewport={{once: true}}
+                        transition={{duration: 0.5, delay: 0.3}}
+                        className="space-y-4 mt-15"
+                    >
+                        <h3 className="text-4xl font-bold text-foreground pb-6">Nos<span className="uppercase font-black text-pink"> partenaires</span></h3>
+                        <div className="flex items-center justify-center">
+                            <Link key="Google" href="https://developers.google.com/community/devfest?hl=fr" target="_blank" rel="noopener noreferrer"
+                                  className="flex items-center justify-center p-10 bg-background rounded-xl shadow-md border border-muted/20 hover:border-yellow/20 transition-colors"
+                            >
+                                <motion.div
+                                    key="Google"
+                                    whileHover={{y: -5}}
+                                    transition={{type: "spring", stiffness: 400, damping: 10}}
+                                >
+                                    <Image
+                                        src={Google}
+                                        alt="Google logo"
+                                        width={250}
+                                        height={50}
+                                        className="max-h-25 !h-auto"
+                                    />
+                                </motion.div>
+                            </Link>
                         </div>
                     </motion.div>
                 </div>

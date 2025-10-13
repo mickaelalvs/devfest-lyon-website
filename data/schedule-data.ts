@@ -296,24 +296,6 @@ export const roomBSchedule: Talk[] = [
     {
         time: "10h45",
         endTime: "11h35",
-        title: "Développer un opérateur Kubernetes en Java, challenge accepted !",
-        theme: "🔧 Cloud, Infra & DevOps",
-        speakers: [{name: "Stéphane Philippart", avatar: "https://avatars0.githubusercontent.com/u/26224751?v=4"}],
-        description: "Il n'est plus, je pense, nécessaire de présenter Kubernetes tellement il fait parti du paysage informatique. Avec sa généralisation, de nouveaux types de développements et de patterns sont apparus. Lors de ce talk j'aborderai l'un d'eux : les opérateurs.\n" +
-            "\n" +
-            "Merveilleux assistants, aptes à faire énormément de choses. Mais voilà, les nombreuses documentations que l'on trouve tournent principalement autour d'un langage : Go. Ce n'est pas que cela ne me plaise pas, mais l'idée est de pouvoir aussi le faire avec un autre langage que je connais et utilisé par de nombreuses équipes de développement : Java.\n" +
-            "\n" +
-            "Lors de ce talk, je vous présenterai, de manière simple, la notion des opérateurs au sein de Kubernetes : à quoi ils servent et comment ils évoluent dans l'éco-système Kubernetes. Nous verrons qu'ils peuvent être de simples aides à l'installation ou à la mise à jour d'une application au sein de Kubernetes mais aussi aller beaucoup plus loin en devenant de vrais Ops pour gérer vos applications pour vous !\n" +
-            "\n" +
-            "Puis, nous développerons un opérateur ensemble et en Java : un bon Hello World nous permettant de prendre en main le SDK Java mais aussi les différents éléments présentés au début du talk.\n" +
-            "\n" +
-            "Enfin, nous essaierons de nous projeter vers un opérateur faisant un peu plus que Hello World afin de voir si vraiment il sait faire de l'Ops !\n" +
-            "\n" +
-            "A la fin de ce talk, vous aurez les différents éléments pour savoir si vous avez besoin développer un opérateur, comment le développer, et choisir entre le faire en Java ou dans un autre langage !"
-    },
-    {
-        time: "16h20",
-        endTime: "17h10",
         title: "Construire des serveurs MCP plus intelligents : approches génériques vs. spécifiques au domaine",
         theme: "📊 Data & AI",
         speakers: [{
@@ -328,6 +310,24 @@ export const roomBSchedule: Talk[] = [
             "\n" +
             "Mais ce n’est pas que de la théorie. Nous vous montrerons les avantages et les inconvénients pratiques de chaque approche et comment choisir (ou construire) celle qui convient le mieux à votre prochain projet. Que vous souhaitiez créer un chatbot polyvalent ou un assistant IA spécialisé, cette présentation vous donnera les outils pour le rendre plus intelligent.\n" +
             "Rejoignez-nous pour découvrir comment exploiter la puissance des LLMs avec des serveurs MCP, sans perdre le contrôle."
+    },
+    {
+        time: "16h20",
+        endTime: "17h10",
+        title: "Développer un opérateur Kubernetes en Java, challenge accepted !",
+        theme: "🔧 Cloud, Infra & DevOps",
+        speakers: [{name: "Stéphane Philippart", avatar: "https://avatars0.githubusercontent.com/u/26224751?v=4"}],
+        description: "Il n'est plus, je pense, nécessaire de présenter Kubernetes tellement il fait parti du paysage informatique. Avec sa généralisation, de nouveaux types de développements et de patterns sont apparus. Lors de ce talk j'aborderai l'un d'eux : les opérateurs.\n" +
+            "\n" +
+            "Merveilleux assistants, aptes à faire énormément de choses. Mais voilà, les nombreuses documentations que l'on trouve tournent principalement autour d'un langage : Go. Ce n'est pas que cela ne me plaise pas, mais l'idée est de pouvoir aussi le faire avec un autre langage que je connais et utilisé par de nombreuses équipes de développement : Java.\n" +
+            "\n" +
+            "Lors de ce talk, je vous présenterai, de manière simple, la notion des opérateurs au sein de Kubernetes : à quoi ils servent et comment ils évoluent dans l'éco-système Kubernetes. Nous verrons qu'ils peuvent être de simples aides à l'installation ou à la mise à jour d'une application au sein de Kubernetes mais aussi aller beaucoup plus loin en devenant de vrais Ops pour gérer vos applications pour vous !\n" +
+            "\n" +
+            "Puis, nous développerons un opérateur ensemble et en Java : un bon Hello World nous permettant de prendre en main le SDK Java mais aussi les différents éléments présentés au début du talk.\n" +
+            "\n" +
+            "Enfin, nous essaierons de nous projeter vers un opérateur faisant un peu plus que Hello World afin de voir si vraiment il sait faire de l'Ops !\n" +
+            "\n" +
+            "A la fin de ce talk, vous aurez les différents éléments pour savoir si vous avez besoin développer un opérateur, comment le développer, et choisir entre le faire en Java ou dans un autre langage !"
     },
     {
         time: "17h20",
