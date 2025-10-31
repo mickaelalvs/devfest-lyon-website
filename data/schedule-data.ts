@@ -163,15 +163,19 @@ export const roomASchedule: Talk[] = [
             name: "Gabriel Pillet",
             avatar: "https://avatars.githubusercontent.com/u/550548?v=4"
         }],
-        description: "Non. Votre site n’est pas accessible parce que vous avez mis des balises alt sur toutes les images.\n" +
-            "Non. Il ne l'est pas non plus parce qu’il a un score de 100 sur Lighthouse.\n" +
-            "Non. Même en respectant à 95 % le RGAA, l’accessibilité réelle de votre site n’est pas assurée.\n" +
+        description: "Vous connaissez les attributs \"aria\" et vous savez qu'il faut mettre des \"alt\" sur vos images ?\n" +
+            "Vous avez un score de 100 sur Lighthouse ?\n" +
+            "Vous avez passé un audit RGAA et avez eu le score honorable de 95 % au RGAA ?\n" +
             "\n" +
-            "Pourquoi, en 2025, tant de sites et d’applications restent-ils encore largement inaccessibles, malgré les lois, les standards et les bonnes intentions affichées ? Aujourd’hui, on estime à moins de 1% les sites réellement utilisables par les personnes en situation de handicap.\n" +
+            "Mais comment savoir si votre site est VRAIMENT accessible ?\n" +
             "\n" +
-            "Entre idées reçues, manque de formation et méconnaissance des usages réels, l’accessibilité reste trop souvent le parent pauvre du développement web. Et pourtant, la rendre concrète n’est ni si long, ni si coûteux. Le \"Design Universel\" est une démarche de qualité, qui profite à tout le monde : personnes porteuses d'un handicap, utilisatrices et utilisateurs valides, et même votre business !\n" +
+            "Pourquoi, en 2025, tant de sites et d’applications restent-ils encore largement inaccessibles, malgré le cadre légal, les standards et les bonnes intentions affichées ?\n" +
             "\n" +
-            "Dans cette conférence accessible à toutes et tous, nous montreront concrètement comment « rendre votre site accessible : vraiment ». Après un rappel sur les besoins des différents handicaps et un point sur les évolutions du RGAA en juin 2025, nous explorerons une démarche concrète à appliquer tout au long du cycle de développement. En insistant sur l'essentiel : savoir tester tout comme vos utilisateurs réels, en apprenant la maîtrise d’un lecteur d’écran.\n" +
+            "Et pourtant, l'accessibilité numérique est une démarche de qualité qui profite à tout le monde : personnes porteuses d'un handicap, utilisatrices et utilisateurs valides, et même votre business ! \n" +
+            "\n" +
+            "Dans cette conférence ouverte à toutes et tous, nous montrerons comment faire votre maximum et comment valider concrètement l'accessibilité de votre site internet. Après un rappel sur les besoins des différents handicaps, nous explorerons une démarche qualité à appliquer tout au long du cycle de développement.\n" +
+            "\n" +
+            "En insistant sur l'essentiel : savoir tester tout comme vos utilisateurs réels, en maîtrisant leurs outils, comme les lecteurs d’écran.\n" +
             "\n" +
             "Animée par Vanessa, consultante et formatrice en accessibilité, et Gabriel, développeur fullstack, cette session s’adresse aux curieuses et curieux comme à celles et ceux qui veulent enfin passer à l’action, pour participer à rendre le monde numérique plus inclusif."
     },
