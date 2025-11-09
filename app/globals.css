@@ -178,6 +178,7 @@
         from {
             height: 0;
         }
+
         to {
             height: var(--radix-accordion-content-height);
         }
@@ -187,6 +188,7 @@
         from {
             height: var(--radix-accordion-content-height);
         }
+
         to {
             height: 0;
         }
@@ -197,10 +199,12 @@
 @utility container {
     margin-inline: auto;
     padding-inline: 2rem;
-    @media (width >= --theme(--breakpoint-sm)) {
-    max-width: none;
-}
-    @media (width >= 1400px) {
+
+    @media (width >=--theme(--breakpoint-sm)) {
+        max-width: none;
+    }
+
+    @media (width >=1400px) {
         max-width: 1400px;
     }
 }
@@ -221,6 +225,7 @@
   La couleur de bordure par défaut est maintenant `currentColor`
 */
 @layer base {
+
     *,
     ::after,
     ::before,
