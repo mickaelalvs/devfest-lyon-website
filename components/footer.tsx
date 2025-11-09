@@ -41,12 +41,19 @@ export const Footer = () => (
                                 Programme
                             </Link>
                         </li>
-                        <Link
-                            href="/code-of-conduct"
-                            className="text-muted-foreground hover:text-foreground transition-colors"
-                        >
-                            Code de conduite
-                        </Link>
+                        <li>
+                            <Link href="/jobboard" className="text-muted-foreground hover:text-foreground transition-colors">
+                                Jobboard
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                href="/code-of-conduct"
+                                className="text-muted-foreground hover:text-foreground transition-colors"
+                            >
+                                Code de conduite
+                            </Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="space-y-4">

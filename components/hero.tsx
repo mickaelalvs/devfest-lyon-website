@@ -55,7 +55,7 @@ export const Hero = () => (
                         </Link>
                     </Button>
                     <Button variant="outline" size="lg" className="border-green text-green hover:bg-green/10" asChild>
-                        <Link href="#billetterie">Venir à l'événement</Link>
+                        <Link href="/jobboard">Jobboard</Link>
                     </Button>
                 </motion.div>
                 <motion.div
