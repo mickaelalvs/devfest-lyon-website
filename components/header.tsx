@@ -58,7 +58,7 @@ export const Header = () => {
                             </Link>
                             <Link href="/jobboard"
                                 className="text-s text-center font-medium transition-colors hover:text-yellow hover:bg-yellow/5 px-8 py-3 rounded-lg my-auto">
-                                Jobboard
+                                Job Board
                             </Link>
                             <Link href="/code-of-conduct"
                                 className="text-s text-center font-medium transition-colors hover:text-pink hover:bg-pink/5 px-8 py-3 rounded-lg my-auto">
@@ -135,7 +135,7 @@ export const Header = () => {
                             onClick={closeMenu}
                             className="text-2xl text-center font-medium transition-colors hover:text-yellow hover:bg-yellow/5 px-8 py-6 rounded-lg"
                         >
-                            Jobboard
+                            Job Board
                         </Link>
                         <Link
                             href="/code-of-conduct"

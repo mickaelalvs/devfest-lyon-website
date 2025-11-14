@@ -110,7 +110,7 @@ function JobBoardContent() {
                     >
                         <div className="space-y-4">
                             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-foreground">
-                                Jobboard
+                                Job Board
                             </h1>
                             <p className="mx-auto max-w-[700px] text-muted-foreground text-lg md:text-xl">
                                 Nos sponsors soutiennent activement le DevFest, et c'est votre premier point commun vu que vous êtes aussi ici ! Découvrez leurs offres d'emploi, explorez leurs projets et n'hésitez pas à postuler ! Vous pourrez également les rencontrer sur place le jour J pour échanger directement avec eux.
@@ -220,7 +220,7 @@ export default function JobBoard() {
                     <div className="container px-4 md:px-6">
                         <div className="flex flex-col items-center justify-center space-y-8 text-center">
                             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-foreground">
-                                Jobboard
+                                Job Board
                             </h1>
                             <p className="text-muted-foreground">Chargement...</p>
                         </div>

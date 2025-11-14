@@ -112,7 +112,7 @@ export default function JobDetailPage({ params }: { params: { slug: string } }) 
                             href="/jobboard" 
                             className="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-2"
                         >
-                            ← Retour au jobboard
+                            ← Retour au Job Board
                         </Link>
                     </div>
 

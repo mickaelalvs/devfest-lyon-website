@@ -43,7 +43,7 @@ export const Footer = () => (
                         </li>
                         <li>
                             <Link href="/jobboard" className="text-muted-foreground hover:text-foreground transition-colors">
-                                Jobboard
+                                Job Board
                             </Link>
                         </li>
                         <li>

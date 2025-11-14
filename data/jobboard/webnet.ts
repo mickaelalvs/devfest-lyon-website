@@ -9,7 +9,7 @@ export const webnetJobs: SponsorJobs = {
         {
             id: "webnet-1",
             slug: "webnet-developpeur-java",
-            title: "Développeur·se JAVA",
+            title: "Développeur·euse JAVA",
             company: "Webnet",
             location: "Lyon",
             type: "CDI",
@@ -57,7 +57,7 @@ export const webnetJobs: SponsorJobs = {
         {
             id: "webnet-2",
             slug: "webnet-developpeur-php-symfony",
-            title: "Développeur·se PHP Symfony",
+            title: "Développeur·euse PHP Symfony",
             company: "Webnet",
             location: "Lyon",
             type: "CDI",

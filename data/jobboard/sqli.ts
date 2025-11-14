@@ -9,18 +9,18 @@ export const sqliJobs: SponsorJobs = {
         {
             id: "sqli-1",
             slug: "sqli-developpeur-mobile-flutter",
-            title: "Développeur·se Mobile Flutter (F/H)",
+            title: "Développeur·euse Mobile Flutter (F/H)",
             company: "SQLI",
             location: "Lyon",
             type: "CDI",
-            description: "🌟 Ta prochaine aventure commence ici ! 🌟 Notre Mobile Factory est à la recherche d'un·e Développeur·se Mobile Flutter passionné·e.",
-            fullDescription: "🌟 Ta prochaine aventure commence ici ! 🌟\n\nNotre Mobile Factory est à la recherche d'un·e Développeur·se Mobile Flutter passionné·e. Rejoignez notre équipe pour développer des applications mobiles innovantes avec Flutter.",
+            description: "🌟 Ta prochaine aventure commence ici ! 🌟 Notre Mobile Factory est à la recherche d'un·e Développeur·euse Mobile Flutter passionné·e.",
+            fullDescription: "🌟 Ta prochaine aventure commence ici ! 🌟\n\nNotre Mobile Factory est à la recherche d'un·e Développeur·euse Mobile Flutter passionné·e. Rejoignez notre équipe pour développer des applications mobiles innovantes avec Flutter.",
             applyUrl: "https://jobs.smartrecruiters.com/SQLI1/744000084842775-developpeur-mobile-flutter-f-h-"
         },
         {
             id: "sqli-2",
             slug: "sqli-developpeur-fullstack-java-angular",
-            title: "Développeur·se Fullstack Java/Angular F/H",
+            title: "Développeur·euse Fullstack Java/Angular F/H",
             company: "SQLI",
             location: "Lyon",
             type: "CDI",
