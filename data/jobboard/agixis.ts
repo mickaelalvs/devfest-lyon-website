@@ -51,7 +51,7 @@ export const agixisJobs: SponsorJobs = {
         {
             id: "agixis-2",
             slug: "agixis-developpeur-java-angular",
-            title: "Développeur·se Java/ Angular",
+            title: "Développeur·euse Java/ Angular",
             company: "Agixis",
             description: "Agixis, c'est une équipe composée de 70 Agiciens passionnés et complémentaires, spécialisés dans l'IoT et les applications digitales. Au sein d'une équipe de 10 experts, tu participes activement au développement de solutions dans le secteur industriel.",
             fullDescription: "Agixis, c'est une équipe composée de 70 Agiciens passionnés et complémentaires, spécialisés dans l'IoT et les applications digitales. Depuis maintenant plus de 10 ans, nous travaillons dans différents secteurs (santé, média, auto, transport...) sur des projets d'envergures qui révolutionnent notre quotidien. Notre marque de fabrique ? Au-delà du conseil, ce que nous apportons, c'est une réelle EXPERTISE technique et méthodologique. Allez, plus qu'un pas pour faire partie de notre communauté d'Agiciens !\n\nAu sein d'une équipe de 10 experts, tu participes activement au développement de solutions dans le secteur industriel.",

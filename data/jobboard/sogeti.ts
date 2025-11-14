@@ -9,7 +9,7 @@ export const sogetiJobs: SponsorJobs = {
         {
             id: "sogeti-1",
             slug: "sogeti-developpeur-fullstack-dotnet",
-            title: "Développeur·se Fullstack .NET",
+            title: "Développeur·euse Fullstack .NET",
             company: "Sogeti",
             location: "Lyon",
             type: "CDI",

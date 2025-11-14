@@ -9,7 +9,7 @@ export const indyJobs: SponsorJobs = {
         {
             id: "indy-1",
             slug: "indy-developpeur-fullstack-nodejs-vuejs",
-            title: "Développeur·se Fullstack NodeJS & VueJS",
+            title: "Développeur·euse Fullstack NodeJS & VueJS",
             company: "Indy",
             location: "Lyon",
             type: "CDI",
