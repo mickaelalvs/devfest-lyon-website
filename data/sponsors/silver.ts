@@ -27,7 +27,7 @@ export const silverSponsors: Sponsor[] = [
     {
         name: "SII",
         logo: siiLogo.src,
-        website: "https://www.sii.fr"
+        website: "https://sii-group.com/fr-FR"
     },
     {
         name: "Webnet",

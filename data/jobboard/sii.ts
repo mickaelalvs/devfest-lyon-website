@@ -4,7 +4,7 @@ import siiLogo from '@/assets/images/sponsors/sii.jpg';
 export const siiJobs: SponsorJobs = {
     sponsorName: "SII",
     sponsorLogo: siiLogo.src,
-    sponsorWebsite: "https://www.sii.fr",
+    sponsorWebsite: "https://sii-group.com/fr-FR",
     jobs: [
         {
             id: "sii-lead-developpeur-back-end",
