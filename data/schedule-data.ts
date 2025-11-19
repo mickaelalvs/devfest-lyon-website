@@ -1,4 +1,4 @@
-import type {Talk, Break} from "@/types/schedule"
+import type { Talk, Break } from "@/types/schedule"
 
 export const breaks: Break[] = [
     {
@@ -96,7 +96,7 @@ export const roomASchedule: Talk[] = [
         title: "C’était dans quel épisode déjà ? Bref, j’ai indexé une série culte",
         theme: "📊 Data & AI",
         speakers: [
-            {name: "Tim Carry", avatar: "https://pbs.twimg.com/profile_images/601300425715908608/0Z1RJjQ8_normal.jpg"},
+            { name: "Tim Carry", avatar: "https://pbs.twimg.com/profile_images/601300425715908608/0Z1RJjQ8_normal.jpg" },
         ],
         description: "| - Mais si tu sais, c'est quand il dit \"Capitaine ! Capitaine ! Vous n'êtes pas le capitaine !\"\n" +
             "\n" +
@@ -122,7 +122,7 @@ export const roomASchedule: Talk[] = [
         endTime: "14h50",
         title: "La révolution WebGPU : toute la puissance du GPU, sur le web et en dehors 🚀",
         theme: "📏 Frontend",
-        speakers: [{name: "Julien Sulpis", avatar: "https://avatars2.githubusercontent.com/u/22420399?v=4"}],
+        speakers: [{ name: "Julien Sulpis", avatar: "https://avatars2.githubusercontent.com/u/22420399?v=4" }],
         description: "Si je vous parle de GPU sur le web, vous pensez à ... ? WebGL ! L’API graphique qui est utilisée sur une bonne partie des sites Awwwards, Google Maps, Figma ou encore Tensorflow. Mais elle souffre d'un design un peu daté, celui de l’API OpenGL sortie en 1992. Depuis, d'autres APIs graphiques ont vu le jour (Vulkan, DirectX 12, Metal), mais elles n’étaient pas accessibles dans les navigateurs. Jusqu'à maintenant !\n" +
             "\n" +
             "Google, Apple et Mozilla ont développé conjointement WebGPU pour succéder à WebGL et amener les APIs graphiques modernes sur le web, et en dehors ! Je vous propose donc de découvrir les améliorations apportées sur le rendu graphique et le calcul sur GPU, avec des mesures de performance pour comparer les différentes implémentations.\n" +
@@ -228,7 +228,7 @@ export const roomBSchedule: Talk[] = [
         endTime: "15h50",
         title: "Docker Bake, élégance et standardisation pour le build de vos images Docker",
         theme: "🔧 Cloud, Infra & DevOps",
-        speakers: [{name: "Mazlum Tosun", avatar: "https://avatars.githubusercontent.com/tosun-si"}],
+        speakers: [{ name: "Mazlum Tosun", avatar: "https://avatars.githubusercontent.com/tosun-si" }],
         description: "Construire des images Docker, nous sommes nombreux à le faire avec la bonne vieille commande docker build. Ça marche, mais ça peut vite devenir verbeux, peu lisible, et pénible à maintenir, surtout lorsque l'on doit gérer plusieurs architectures comme ARM et AMD, ou passer à l’échelle dans une CI.\n" +
             "\n" +
             "Bonne nouvelle : Docker a introduit Docker Bake, une façon standard, élégante et efficace de décrire vos builds avec du HCL ou du YAML. C’est propre, lisible, modulaire et surtout pensé pour l’automatisation.\n" +
@@ -247,7 +247,7 @@ export const roomBSchedule: Talk[] = [
         title: "Déchaînez le Chaos : Tester la résilience de votre application avec Chaos Monkey",
         theme: "🗃️ Backend",
         speakers: [
-            {name: "Erwan Le Tutour", avatar: "https://avatars.githubusercontent.com/u/21158564?v=4"},
+            { name: "Erwan Le Tutour", avatar: "https://avatars.githubusercontent.com/u/21158564?v=4" },
         ],
         description: "Les systèmes modernes sont de plus en plus complexes, distribués et imprévisibles. Face à cette réalité, une question se pose : comment s’assurer que votre application peut survivre à l’inattendu ?\n" +
             "\n" +
@@ -288,7 +288,7 @@ export const roomBSchedule: Talk[] = [
         endTime: "14h50",
         title: "Et si votre prochain script… c’était un prompt ? Découvrez GenAIScript!",
         theme: "📊 Data & AI",
-        speakers: [{name: "Yohan Lasorsa", avatar: "https://avatars0.githubusercontent.com/u/593151?v=4"}],
+        speakers: [{ name: "Yohan Lasorsa", avatar: "https://avatars0.githubusercontent.com/u/593151?v=4" }],
         description: "Il fut un temps où jQuery a révolutionné le développement web: fini les galères de compatibilité entre navigateurs, place à la simplicité et à l'efficacité. Les développeurs pouvaient enfin se concentrer sur leur app, pas sur les bugs.\n" +
             "\n" +
             "Aujourd’hui, l’IA vit une phase similaire. Les modèles évoluent à toute vitesse, les outils se multiplient... et les agents IA ajoutent une nouvelle couche de complexité. Pas facile de suivre, encore moins d’en tirer vraiment parti!\n" +
@@ -300,27 +300,27 @@ export const roomBSchedule: Talk[] = [
     {
         time: "10h45",
         endTime: "11h35",
-        title: "Construire des serveurs MCP plus intelligents : approches génériques vs. spécifiques au domaine",
+        title: "Créer son propre Jeu de Rôle en Agentic AI & MCP",
         theme: "📊 Data & AI",
         speakers: [{
-            name: "Horacio Gonzalez",
-            avatar: "https://lh4.googleusercontent.com/-6krIgoWnkGk/AAAAAAAAAAI/AAAAAAABR4o/EJH0Fh-m16k/photo.jpg"
+            name: "TheWitcherish",
+            avatar: "https://lh3.googleusercontent.com/a/AEdFTp7PvJLVubaFLWMiAONNoTTqX-MzJdYxOyI2oV5lww=s96-c"
+        }, {
+            name: "Tiffany Souterre",
+            avatar: "https://lh3.googleusercontent.com/-0XDx36TcjxU/AAAAAAAAAAI/AAAAAAABQkA/-hqGP4ktCDY/photo.jpg"
         }],
-        description: "Les Modèles de Langage de Grande Taille (LLMs) sont puissants, mais sans une direction claire, ils peuvent ressembler à un stagiaire brillant mais distrait. C’est là que les serveurs MCP (Model Context Protocol) entrent en jeu, fournissant une méthode structurée pour que les LLMs interagissent avec vos données, outils et APIs.\n" +
+        description: "Vous êtes un Développeur ou une Développeuse, fan de Jeu de Rôle et aimez les chats ? Alors venez découvrir Cats' Tail, un Jeu de Rôle transformant des concepts complexes d'IA en une expérience de jeu immersive et évolutive !\n" +
             "\n" +
-            "Dans cette session, nous explorerons les deux principales variantes de serveurs MCP : génériques et spécifiques au domaine. Les serveurs MCP génériques sont comme des autoroutes ouvertes : polyvalents mais chaotiques, permettant aux LLMs d'explorer n'importe quelle source de données. Les serveurs MCP spécifiques au domaine, en revanche, ressemblent davantage à des visites guidées : optimisés, sécurisés, mais moins flexibles.\n" +
+            "Durant ce talk, vous découvrirez comment mettre en oeuvre les techniques d'Agentic AI et MCP (Model Context Protocol) afin de créer un Maître du Jeu (MJ) orchestrant plusieurs agents, chacuns spécialisé dans une tâche particulière.\n" +
             "\n" +
-            "Nous plongerons dans des exemples concrets, comme l’utilisation d’un serveur MCP PostgreSQL pour des requêtes ouvertes, par opposition à un serveur MCP spécifique au domaine optimisé pour RAGmonsters. Vous verrez comment ces deux approches influencent les performances, la sécurité et l’expérience des développeurs.\n" +
-            "\n" +
-            "Mais ce n’est pas que de la théorie. Nous vous montrerons les avantages et les inconvénients pratiques de chaque approche et comment choisir (ou construire) celle qui convient le mieux à votre prochain projet. Que vous souhaitiez créer un chatbot polyvalent ou un assistant IA spécialisé, cette présentation vous donnera les outils pour le rendre plus intelligent.\n" +
-            "Rejoignez-nous pour découvrir comment exploiter la puissance des LLMs avec des serveurs MCP, sans perdre le contrôle."
+            "En Bonus : Enrichir l'expérience en persistant les échanges entre joueurs et MJ dans une base de données afin de renforcer l'immersion des joueurs et joueuses :)"
     },
     {
         time: "16h20",
         endTime: "17h10",
         title: "Développer un opérateur Kubernetes en Java, challenge accepted !",
         theme: "🔧 Cloud, Infra & DevOps",
-        speakers: [{name: "Stéphane Philippart", avatar: "https://avatars0.githubusercontent.com/u/26224751?v=4"}],
+        speakers: [{ name: "Stéphane Philippart", avatar: "https://avatars0.githubusercontent.com/u/26224751?v=4" }],
         description: "Il n'est plus, je pense, nécessaire de présenter Kubernetes tellement il fait parti du paysage informatique. Avec sa généralisation, de nouveaux types de développements et de patterns sont apparus. Lors de ce talk j'aborderai l'un d'eux : les opérateurs.\n" +
             "\n" +
             "Merveilleux assistants, aptes à faire énormément de choses. Mais voilà, les nombreuses documentations que l'on trouve tournent principalement autour d'un langage : Go. Ce n'est pas que cela ne me plaise pas, mais l'idée est de pouvoir aussi le faire avec un autre langage que je connais et utilisé par de nombreuses équipes de développement : Java.\n" +
