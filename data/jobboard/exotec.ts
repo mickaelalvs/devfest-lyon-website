@@ -7,47 +7,50 @@ export const exotecJobs: SponsorJobs = {
     sponsorWebsite: "https://www.exotec.com/fr/",
     jobs: [
         {
-            id: "exotec-architecte-systemes-rd",
-            slug: "exotec-architecte-systemes-rd",
-            title: "Architecte Systèmes R&D",
+            id: "exotec-ingenieur-rd-java-senior",
+            slug: "exotec-ingenieur-rd-java-senior",
+            title: "Ingénieur.e R&D Logiciel Senior Java",
             company: "Exotec",
-            location: "Lille",
+            location: "Lille et Lyon",
             type: "CDI",
-            description: "Chez Exotec, nous mettons l'excellence technologique au service de la redéfinition des relations entre humains et robots. En tant qu'Architecte Systèmes R&D, vous jouerez un rôle central dans la conception et l'évolution de nos solutions robotiques.",
-            applyUrl: "https://careers.exotec.com/_/j/D1E58AF122/",
-            contactEmail: "claire.bonniez@exotec.com",
-            fullDescription: "Chez Exotec, nous mettons l'excellence technologique au service de la redéfinition des relations entre humains et robots. À travers le monde, nos solutions révolutionnent la façon dont nos client·e·s délivrent leurs produits aux personnes consommatrices finales. Nous contribuons au succès des plus grandes marques du commerce et de l'industrie, tout en améliorant les conditions de travail de leurs salarié·e·s.\n\nPar l'alliance de l'intelligence artificielle et d'un hardware performant, nos robots sont désormais déployés dans le monde entier et leur succès a fait de nous la première licorne industrielle française.\n\nRejoindre Exotec, c'est l'opportunité de donner du sens à vos compétences. Grandissez avec nos ExoPeople dans le monde entier pour faire de vos idées, des réalités.\n\nLa révolution robotique portée par Exotec ne fait que commencer, vous en êtes ?\n\nNous favorisons un environnement de travail inclusif et équitable, ouvert à tous les genres. Si vous n'avez pas toutes les qualifications requises mais que ce poste vous intéresse, postulez sans hésiter.",
+            description: "Chez Exotec, nous mettons l'excellence technologique au service de la redéfinition des relations entre humains et robots. Rejoignez nos équipes R&D pour développer des solutions logicielles performantes et robustes pour nos systèmes robotiques.",
+            applyUrl: "https://careers.exotec.com/",
+            contactEmail: "contact@exotec.com",
+            experience: "6 ans minimum",
+            fullDescription: "Chez Exotec, nous mettons l'excellence technologique au service de la redéfinition des relations entre humains et robots. À travers le monde, nos solutions révolutionnent la façon dont nos client·e·s délivrent leurs produits aux personnes consommatrices finales. Nous contribuons au succès des plus grandes marques du commerce et de l'industrie, tout en améliorant les conditions de travail de leurs salarié·e·s.\n\nPar l'alliance de l'intelligence artificielle et d'un hardware performant, nos robots sont désormais déployés dans le monde entier et leur succès a fait de nous la première licorne industrielle française.\n\nRejoindre Exotec, c'est l'opportunité de donner du sens à vos compétences. Grandissez avec nos ExoPeople dans le monde entier pour faire de vos idées, des réalités.\n\nLa révolution robotique portée par Exotec ne fait que commencer, vous en êtes ?",
             responsibilities: [
-                "Définir l'architecture système des produits robotiques Exotec",
-                "Définir les exigences techniques de plusieurs produits robotiques nouveaux ou complexes développés par Exotec, simultanément",
-                "Intervenir en amont pour prendre en compte les besoins des clients et des intégrateurs dans la conception des produits, afin de garantir une solution cohérente et plug and play sur site",
-                "Rédiger et assurer la prise en compte des risques inhérents aux produits Exotec pour toutes leurs phases de vie afin de garantir la sécurité, la cybersécurité et la conformité de ces produits",
-                "Soutenir le chef de projet R&D sur les aspects fonctionnels des projets",
-                "Être responsable de la documentation technique du système",
-                "Soutenir et encadrer les membres juniors de l'équipe",
-                "Définir, rédiger et maintenir les processus d'ingénierie système et les meilleures pratiques"
+                "Comprendre les besoins logistiques de nos clients afin de proposer des solutions logicielles capables d'atteindre les performances et la robustesse nécessaires",
+                "Développer des nouvelles fonctionnalités logicielles pour améliorer les systèmes d'Exotec",
+                "Réaliser des analyses approfondies pour identifier les risques, participer à la conception, au chiffrage et à la rédaction des spécifications",
+                "Effectuer des tests pour valider les fonctionnalités logicielles, et faire évoluer les standards de qualité",
+                "Être garant de la sécurité, la performance, l'évolutivité et la qualité du code",
+                "Assurer la création d'un environnement logiciel rapidement déployable et suivre le déploiement chez nos clients",
+                "Collaborer avec l'ensemble de l'équipe R&D pour faire avancer les projets",
+                "Contribuer à l'évolution de nos méthodes de travail et participer aux rituels agiles de l'équipe"
             ],
             requirements: [
-                "Diplômé·e d'une formation Bac+5 en ingénierie (systèmes embarqués, robotique, mécatronique, automatisme, ou domaine équivalent)",
-                "Expérience confirmée dans l'architecture de systèmes complexes, idéalement dans un environnement industriel ou robotique",
-                "Bonne maîtrise des normes et réglementations internationales applicables aux systèmes robotiques",
-                "Compétences en modélisation système et en gestion de configuration",
-                "Capacité à rédiger une documentation technique claire et exhaustive",
-                "Esprit analytique, rigueur, et capacité à travailler en mode projet avec des équipes multidisciplinaires",
-                "Anglais professionnel requis"
+                "Diplôme d'ingénieur ou formation de niveau Bac+5 avec une spécialisation en informatique ou informatique industrielle",
+                "Au moins 6 années d'expérience en développement informatique",
+                "Maîtrise parfaite du développement Java Spring Boot",
+                "Une expérience dans un environnement industriel associant Hardware et Software est un plus",
+                "Force de proposition sur l'architecture existante et les évolutions",
+                "Appréciation des environnements techniques exigeants, l'analyse et la résolution de problèmes complexes",
+                "Capacité à superviser des Ingénieur·e·s R&D Logiciel juniors",
+                "Niveau d'anglais opérationnel"
             ],
             skills: [
-                "Architecture système",
-                "Systèmes embarqués",
-                "Robotique",
-                "Mécatronique",
-                "Automatisme",
-                "Modélisation système",
-                "Gestion de configuration",
-                "Documentation technique",
-                "Normes et réglementations",
-                "Cybersécurité",
-                "Anglais professionnel"
+                "Java",
+                "Spring Boot",
+                "Architecture logicielle",
+                "Développement logiciel",
+                "Environnement industriel",
+                "Hardware/Software",
+                "Analyse de risques",
+                "Tests logiciels",
+                "Performance",
+                "Sécurité",
+                "Méthodologie Agile",
+                "Anglais"
             ],
             benefits: [
                 "Couverture mutuelle et prévoyance santé compétitive",
@@ -56,7 +59,7 @@ export const exotecJobs: SponsorJobs = {
                 "Programme de mobilité interne et internationale",
                 "Nombreuses opportunités de formation et de développement"
             ],
-            additionalInfo: "Chez Exotec, nous garantissons l'égalité des chances dans notre processus de recrutement. L'ensemble des candidatures reçues sont étudiées indépendamment de l'âge, du genre, de l'origine, de la religion, de la couleur de peau, de la nationalité, du sexe, du handicap, de l'orientation sexuelle ou de toute autre distinction protégée par la loi. Nous mettons en place un environnement de travail inclusif et respectueux de toutes les différences. En rejoignant le Pacte Parité, Exotec s'engage pour un écosystème French Tech plus paritaire."
+            additionalInfo: "Poste soumis à astreinte.\n\nPour postuler, veuillez envoyer votre CV. Seul·e·s les candidat·e·s présélectionné·e·s seront contacté·e·s pour les prochaines étapes du processus de recrutement. Au plaisir de recevoir votre candidature ! Si vous postulez à un poste en Europe, veuillez consulter notre politique de confidentialité pour plus de détails.\n\nChez Exotec, nous garantissons l'égalité des chances dans notre processus de recrutement. L'ensemble des candidatures reçues sont étudiées indépendamment de l'âge, du genre, de l'origine, de la religion, de la couleur de peau, de la nationalité, du sexe, du handicap, de l'orientation sexuelle ou de toute autre distinction protégée par la loi. Nous mettons en place un environnement de travail inclusif et respectueux de toutes les différences. En rejoignant le Pacte Parité, Exotec s'engage pour un écosystème French Tech plus paritaire."
         },
         {
             id: "exotec-devops-senior",
