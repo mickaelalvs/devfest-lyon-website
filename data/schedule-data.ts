@@ -93,7 +93,7 @@ export const roomASchedule: Talk[] = [
     {
         time: "11h45",
         endTime: "12h05",
-        title: "C’était dans quel épisode déjà ? Bref, j’ai indexé une série culte",
+        title: "C'était dans quel épisode déjà ? Bref, j'ai indexé une série culte",
         theme: "📊 Data & AI",
         speakers: [
             { name: "Tim Carry", avatar: "https://pbs.twimg.com/profile_images/601300425715908608/0Z1RJjQ8_normal.jpg" },
@@ -109,7 +109,7 @@ export const roomASchedule: Talk[] = [
     {
         time: "13h30",
         endTime: "13h50",
-        title: "Les gardiens des données à l’ère de l’IA",
+        title: "Les gardiens des données à l'ère de l'IA",
         theme: "📊 Data & AI",
         speakers: [{
             name: "Carmen Piciorus",
@@ -352,7 +352,7 @@ export const roomBSchedule: Talk[] = [
 
 export const lunchTalk: Talk = {
     time: "12h30",
-    endTime: "13h20",
+    endTime: "13h00",
     title: "Speechless Live Original ✨",
     theme: "Autre 😍",
     speakers: [{

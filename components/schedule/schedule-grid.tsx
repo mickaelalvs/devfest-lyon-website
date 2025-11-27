@@ -114,7 +114,7 @@ export function ScheduleGrid() {
                                         <span className="text-md font-semibold text-gray-500">{breakItem.endTime}</span>
                                     </div>
                                     <div className="col-span-1">
-                                        <BreakCard breakItem={breakItem} onClick={() => handleTalkClick(lunchTalk)}/>
+                                        <BreakCard breakItem={breakItem} onClick={() => handleTalkClick(lunchTalk)} lunchTalk={lunchTalk}/>
                                     </div>
                                 </div>
                             )
@@ -155,7 +155,7 @@ export function ScheduleGrid() {
                             </div>
 
                             {breakItem ? (
-                                <BreakCard breakItem={breakItem}/>
+                                <BreakCard breakItem={breakItem} onClick={() => handleTalkClick(lunchTalk)} lunchTalk={lunchTalk}/>
                             ) : (
                                 <div className="space-y-4 my-10">
                                     {roomAItem && (
