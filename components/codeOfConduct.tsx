@@ -2,7 +2,11 @@ import Link from "next/link"
 import { motion } from "framer-motion"
 import { ChevronLeft } from "lucide-react"
 
-export const CodeOfConduct = () => (
+interface CodeOfConductProps {
+    backUrl?: string;
+}
+
+export const CodeOfConduct = ({ backUrl = "/" }: CodeOfConductProps) => (
     <div className="container px-4 md:px-6 py-12 md:py-24 max-w-4xl">
         <motion.div
             initial={{opacity: 0, y: 20}}
@@ -11,7 +15,7 @@ export const CodeOfConduct = () => (
             className="mb-8"
         >
             <Link
-                href="/"
+                href={backUrl}
                 className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors mb-6 text-xl"
             >
                 <ChevronLeft className="mr-1 h-4 w-4"/>
@@ -284,7 +288,7 @@ export const CodeOfConduct = () => (
             className="mb-8"
         >
             <Link
-                href="/"
+                href={backUrl}
                 className="inline-flex items-center text-xl text-muted-foreground hover:text-primary transition-colors mt-18"
             >
                 <ChevronLeft className="mr-1 h-4 w-4"/>

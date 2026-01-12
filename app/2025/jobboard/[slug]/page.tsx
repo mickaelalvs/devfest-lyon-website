@@ -109,7 +109,7 @@ export default function JobDetailPage({ params }: { params: { slug: string } }) 
                 <div className="container px-4 md:px-6">
                     <div className="mb-8">
                         <Link 
-                            href="/jobboard" 
+                            href="/2025/jobboard" 
                             className="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-2"
                         >
                             ← Retour au Job Board
@@ -359,7 +359,7 @@ export default function JobDetailPage({ params }: { params: { slug: string } }) 
                                                         variant="outline"
                                                         className={`w-full ${colorScheme.button} border-current hover:bg-current/10`}
                                                     >
-                                                        <Link href={`/jobboard/${otherJob.slug}`}>
+                                                        <Link href={`/2025/jobboard/${otherJob.slug}`}>
                                                             Voir l'offre
                                                         </Link>
                                                     </Button>

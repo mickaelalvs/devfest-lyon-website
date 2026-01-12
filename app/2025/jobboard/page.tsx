@@ -121,7 +121,7 @@ function JobBoardContent() {
                                         asChild
                                         className="text-base bg-primary text-primary-foreground hover:bg-primary/90"
                                     >
-                                        <Link href="/jobboard" className="inline-flex items-center gap-2">
+                                        <Link href="/2025/jobboard" className="inline-flex items-center gap-2">
                                             Voir toutes les offres du DevFest
                                             <span>→</span>
                                         </Link>
@@ -188,7 +188,7 @@ function JobBoardContent() {
                                                                 asChild
                                                                 className={`w-full ${colorScheme.button}`}
                                                             >
-                                                                <Link href={`/jobboard/${job.slug}`}>
+                                                                <Link href={`/2025/jobboard/${job.slug}`}>
                                                                     En savoir plus
                                                                 </Link>
                                                             </Button>

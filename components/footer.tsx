@@ -1,16 +1,24 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import {Linkedin} from "lucide-react";
+import { usePathname } from "next/navigation";
 
 import Logo from '../assets/images/logo-devfest.svg';
 import BlueskyIcon from '../assets/icons/bluesky.svg';
 
-export const Footer = () => (
+export const Footer = () => {
+    const pathname = usePathname();
+    const is2025 = pathname?.startsWith('/2025');
+    const basePath = is2025 ? '/2025' : '';
+
+    return (
     <footer className="w-full border-t bg-background py-6 md:py-12">
         <div className="container px-4 md:px-6">
             <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
                 <div className="space-y-4">
-                    <Link href="/" className="flex items-center space-x-2">
+                    <Link href={is2025 ? "/2025" : "/"} className="flex items-center space-x-2">
                         <Image
                             src={Logo}
                             alt="DevFest Lyon Logo"
@@ -32,28 +40,32 @@ export const Footer = () => (
                     <h3 className="text-sm font-medium">Liens</h3>
                     <ul className="space-y-2 text-sm">
                         <li>
-                            <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
+                            <Link href={is2025 ? "/2025" : "/"} className="text-muted-foreground hover:text-primary transition-colors">
                                 Accueil
                             </Link>
                         </li>
-                        <li>
-                            <Link href="/schedule" className="text-muted-foreground hover:text-red transition-colors">
-                                Programme
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/jobboard" className="text-muted-foreground hover:text-foreground transition-colors">
-                                Job Board
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                href="/code-of-conduct"
-                                className="text-muted-foreground hover:text-foreground transition-colors"
-                            >
-                                Code de conduite
-                            </Link>
-                        </li>
+                        {is2025 && (
+                            <>
+                                <li>
+                                    <Link href="/2025/schedule" className="text-muted-foreground hover:text-red transition-colors">
+                                        Programme
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/2025/jobboard" className="text-muted-foreground hover:text-foreground transition-colors">
+                                        Job Board
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        href="/2025/code-of-conduct"
+                                        className="text-muted-foreground hover:text-foreground transition-colors"
+                                    >
+                                        Code de conduite
+                                    </Link>
+                                </li>
+                            </>
+                        )}
                     </ul>
                 </div>
                 <div className="space-y-4">
@@ -85,4 +97,5 @@ export const Footer = () => (
             </div>
         </div>
     </footer>
-)
+    );
+}
