@@ -11,7 +11,6 @@ import BlueskyIcon from '../assets/icons/bluesky.svg';
 export const Footer = () => {
     const pathname = usePathname();
     const is2025 = pathname?.startsWith('/2025');
-    const basePath = is2025 ? '/2025' : '';
 
     return (
     <footer className="w-full border-t bg-background py-6 md:py-12">
