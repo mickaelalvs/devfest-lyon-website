@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Users } from "lucide-react";
 
 export const Register = () => (
     <section id="billetterie" className="w-full py-12 md:py-24 lg:py-32 bg-red/5">
