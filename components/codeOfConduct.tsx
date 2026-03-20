@@ -2,23 +2,27 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ChevronLeft } from 'lucide-react';
 
-interface CodeOfConductProps {
-  backUrl?: string;
-}
+export const CodeOfConduct = () => (
+    <div className="container px-4 md:px-6 py-12 md:py-24 max-w-4xl">
+        <motion.div
+            initial={{opacity: 0, y: 20}}
+            animate={{opacity: 1, y: 0}}
+            transition={{duration: 0.5}}
+            className="mb-8"
+        >
+            <Link
+                href="/"
+                className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors mb-6 text-xl"
+            >
+                <ChevronLeft className="mr-1 h-4 w-4"/>
+                Retour à l&apos;accueil
+            </Link>
 
-export const CodeOfConduct = ({ backUrl = '/' }: CodeOfConductProps) => (
-  <div className="container px-4 md:px-6 py-12 md:py-24 max-w-4xl">
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="mb-8">
-      <Link href={backUrl} className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors mb-6 text-xl">
-        <ChevronLeft className="mr-1 h-4 w-4" />
-        Retour à l&apos;accueil
-      </Link>
-
-      <div className="space-y-2 pt-8">
-        <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Code de conduite</h1>
-        <div className="h-1 w-24 bg-gradient-to-r from-primary to-navy rounded-full"></div>
-      </div>
-    </motion.div>
+            <div className="space-y-2 pt-8">
+                <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Code de conduite</h1>
+                <div className="h-1 w-24 bg-linear-to-r from-primary to-navy rounded-full"></div>
+            </div>
+        </motion.div>
 
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -209,11 +213,19 @@ export const CodeOfConduct = ({ backUrl = '/' }: CodeOfConductProps) => (
       </section>
     </motion.div>
 
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="mb-8">
-      <Link href={backUrl} className="inline-flex items-center text-xl text-muted-foreground hover:text-primary transition-colors mt-18">
-        <ChevronLeft className="mr-1 h-4 w-4" />
-        Retour à l&apos;accueil
-      </Link>
-    </motion.div>
-  </div>
+        <motion.div
+            initial={{opacity: 0, y: 20}}
+            animate={{opacity: 1, y: 0}}
+            transition={{duration: 0.5}}
+            className="mb-8"
+        >
+            <Link
+                href="/"
+                className="inline-flex items-center text-xl text-muted-foreground hover:text-primary transition-colors mt-18"
+            >
+                <ChevronLeft className="mr-1 h-4 w-4"/>
+                Retour à l&apos;accueil
+            </Link>
+        </motion.div>
+    </div>
 );

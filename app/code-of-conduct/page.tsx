@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import {Header} from "@/components/2025/header";
-import {Footer} from "@/components/2025/footer";
+import {Header2026} from "@/components/2026/header";
+import {Footer2026} from "@/components/2026/footer";
 import {CodeOfConduct} from "@/components/codeOfConduct";
 
 export default function Page() {
     return (
         <main className="min-h-screen">
-            <Header />
+            <Header2026 />
             <CodeOfConduct />
-            <Footer />
+            <Footer2026 />
         </main>
     );
 }
