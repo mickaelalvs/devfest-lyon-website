@@ -1,7 +1,7 @@
 'use client';
 
-import { Header } from '@/components/header';
-import { Footer } from '@/components/footer';
+import { Header } from '@/components/2025/header';
+import { Footer } from '@/components/2025/footer';
 import { CodeOfConduct } from '@/components/codeOfConduct';
 
 export default function Page() {

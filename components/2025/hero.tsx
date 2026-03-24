@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ArrowRight, Calendar, ChevronDown, MapPin } from 'lucide-react';
 
-import Logo from '../assets/images/logo-devfest.svg';
+import Logo from '../../assets/images/logo-devfest.svg';
 
 export const Hero = () => (
   <section className="relative min-h-screen flex items-center justify-center">

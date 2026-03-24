@@ -16,7 +16,7 @@ export const CodeOfConduct = ({ backUrl = '/' }: CodeOfConductProps) => (
 
       <div className="space-y-2 pt-8">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Code de conduite</h1>
-        <div className="h-1 w-24 bg-gradient-to-r from-primary to-navy rounded-full"></div>
+        <div className="h-1 w-24 bg-linear-to-r from-primary to-navy rounded-full"></div>
       </div>
     </motion.div>
 

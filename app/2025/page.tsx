@@ -1,13 +1,13 @@
 'use client';
 
-import { Hero } from '@/components/hero';
-import { FirstEdition } from '@/components/firstEdition';
-import { About } from '@/components/about';
+import { Hero } from '@/components/2025/hero';
+import { FirstEdition } from '@/components/2025/firstEdition';
+import { About } from '@/components/2025/about';
 import { Team } from '@/components/team';
-import { Footer } from '@/components/footer';
-import { Header } from '@/components/header';
-import { Register } from '@/components/register';
-import { Partners } from '@/components/partners';
+import { Footer } from '@/components/2025/footer';
+import { Header } from '@/components/2025/header';
+import { Register } from '@/components/2025/register';
+import { Partners } from '@/components/2025/partners';
 
 export default function Home2025() {
   return (
