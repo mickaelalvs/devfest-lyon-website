@@ -1,26 +1,26 @@
 'use client';
 
-import { motion } from "framer-motion";
-import Image from "next/image";
-import Link from "next/link";
-import { useSearchParams } from "next/navigation";
-import { useEffect, useMemo, Suspense } from "react";
-import { Header } from "@/components/2025/header";
-import { Footer } from "@/components/2025/footer";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
-import { Button } from "@/components/ui/button";
-import { sqliJobs } from "@/data/jobboard/sqli";
-import { exotecJobs } from "@/data/jobboard/exotec";
-import { sogetiJobs } from "@/data/jobboard/sogeti";
-import { agixisJobs } from "@/data/jobboard/agixis";
-import { siiJobs } from "@/data/jobboard/sii";
-import { webnetJobs } from "@/data/jobboard/webnet";
-import { decathlonJobs } from "@/data/jobboard/decathlon";
-import { peaksJobs } from "@/data/jobboard/peaks";
-import { bedrockJobs } from "@/data/jobboard/bedrock";
-import { indyJobs } from "@/data/jobboard/indy";
-import { zenikaJobs } from "@/data/jobboard/zenika";
+import { motion } from 'framer-motion';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
+import { useEffect, useMemo, Suspense } from 'react';
+import { Header } from '@/components/2025/header';
+import { Footer } from '@/components/2025/footer';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Separator } from '@/components/ui/separator';
+import { Button } from '@/components/ui/button';
+import { sqliJobs } from '@/data/jobboard/sqli';
+import { exotecJobs } from '@/data/jobboard/exotec';
+import { sogetiJobs } from '@/data/jobboard/sogeti';
+import { agixisJobs } from '@/data/jobboard/agixis';
+import { siiJobs } from '@/data/jobboard/sii';
+import { webnetJobs } from '@/data/jobboard/webnet';
+import { decathlonJobs } from '@/data/jobboard/decathlon';
+import { peaksJobs } from '@/data/jobboard/peaks';
+import { bedrockJobs } from '@/data/jobboard/bedrock';
+import { indyJobs } from '@/data/jobboard/indy';
+import { zenikaJobs } from '@/data/jobboard/zenika';
 
 const allSponsorsJobs = [
   sqliJobs,
