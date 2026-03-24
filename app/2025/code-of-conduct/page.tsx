@@ -8,7 +8,7 @@ export default function Page() {
     return (
         <main className="min-h-screen">
             <Header />
-            <CodeOfConduct />
+            <CodeOfConduct backUrl="/2025" />
             <Footer />
         </main>
     );
