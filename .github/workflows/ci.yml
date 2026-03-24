@@ -1,0 +1,23 @@
+name: Check integration
+permissions:
+  contents: read
+on:
+  pull_request:
+  push:
+    branches:
+      - 'main'
+jobs:
+  integration:
+    name: Check integration
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: pnpm/action-setup@v4.2.0
+        name: Install pnpm
+      - uses: actions/setup-node@main
+        with:
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile --prefer-offline
+      - run: pnpm fmt:check
+      - run: pnpm lint
+      - run: pnpm build

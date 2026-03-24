@@ -12,34 +12,31 @@ import { indyJobs } from '@/data/jobboard/indy';
 import { zenikaJobs } from '@/data/jobboard/zenika';
 
 const allSponsorsJobs: SponsorJobs[] = [
-    sqliJobs,
-    exotecJobs,
-    sogetiJobs,
-    agixisJobs,
-    siiJobs,
-    webnetJobs,
-    decathlonJobs,
-    peaksJobs,
-    bedrockJobs,
-    indyJobs,
-    zenikaJobs
+  sqliJobs,
+  exotecJobs,
+  sogetiJobs,
+  agixisJobs,
+  siiJobs,
+  webnetJobs,
+  decathlonJobs,
+  peaksJobs,
+  bedrockJobs,
+  indyJobs,
+  zenikaJobs,
 ];
 
 export function getAllJobs(): JobOffer[] {
-    return allSponsorsJobs.flatMap(sponsor => sponsor.jobs);
+  return allSponsorsJobs.flatMap((sponsor) => sponsor.jobs);
 }
 
 export function getJobBySlug(slug: string): JobOffer | undefined {
-    const allJobs = getAllJobs();
-    return allJobs.find(job => job.slug === slug);
+  const allJobs = getAllJobs();
+  return allJobs.find((job) => job.slug === slug);
 }
 
 export function getSponsorBySlug(slug: string): SponsorJobs | undefined {
-    const job = getJobBySlug(slug);
-    if (!job) return undefined;
-    
-    return allSponsorsJobs.find(sponsor => 
-        sponsor.jobs.some(j => j.slug === slug)
-    );
-}
+  const job = getJobBySlug(slug);
+  if (!job) return undefined;
 
+  return allSponsorsJobs.find((sponsor) => sponsor.jobs.some((j) => j.slug === slug));
+}

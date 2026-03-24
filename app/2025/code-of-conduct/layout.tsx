@@ -1,15 +1,15 @@
-import type {Metadata} from "next";
+import type { Metadata } from 'next';
 
-const title = "DevFest Lyon 2025 | Code de conduite";
+const title = 'DevFest Lyon 2025 | Code de conduite';
 
 export const metadata: Metadata = {
-    title,
+  title,
 };
 
 export default function ChildLayout({
-                                        children,
-                                    }: Readonly<{
-    children: React.ReactNode;
+  children,
+}: Readonly<{
+  children: React.ReactNode;
 }>) {
-    return children;
+  return children;
 }

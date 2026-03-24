@@ -8,50 +8,50 @@ import peaks from '@/assets/images/sponsors/Peaks.webp';
 import bedrock from '@/assets/images/sponsors/Bedrock.svg';
 
 export interface Sponsor {
-    name: string;
-    logo: string;
-    website: string;
+  name: string;
+  logo: string;
+  website: string;
 }
 
 export const silverSponsors: Sponsor[] = [
-    {
-        name: "Sogeti",
-        logo: sogetiLogo.src,
-        website: "https://www.fr.sogeti.com/"
-    },
-    {
-        name: "Agixis",
-        logo: agixisLogo.src,
-        website: "https://www.agixis.com/"
-    },
-    {
-        name: "SII",
-        logo: siiLogo.src,
-        website: "https://sii-group.com/fr-FR"
-    },
-    {
-        name: "Webnet",
-        logo: webnetLogo.src,
-        website: "https://www.webnet.fr",
-    },
-    {
-        name: "Decathlon",
-        logo: decathlon.src,
-        website: "https://digital.decathlon.net/",
-    },
-    {
-        name: "Peaks",
-        logo: peaks.src,
-        website: "https://peaks.fr/"
-    },
-    {
-        name: "Bedrock",
-        logo: bedrock.src,
-        website: "https://bedrockstreaming.com/"
-    },
-    {
-        name: "Indy",
-        logo: indy.src,
-        website: "https://www.indy.fr/"
-    }
-]; 
+  {
+    name: 'Sogeti',
+    logo: sogetiLogo.src,
+    website: 'https://www.fr.sogeti.com/',
+  },
+  {
+    name: 'Agixis',
+    logo: agixisLogo.src,
+    website: 'https://www.agixis.com/',
+  },
+  {
+    name: 'SII',
+    logo: siiLogo.src,
+    website: 'https://sii-group.com/fr-FR',
+  },
+  {
+    name: 'Webnet',
+    logo: webnetLogo.src,
+    website: 'https://www.webnet.fr',
+  },
+  {
+    name: 'Decathlon',
+    logo: decathlon.src,
+    website: 'https://digital.decathlon.net/',
+  },
+  {
+    name: 'Peaks',
+    logo: peaks.src,
+    website: 'https://peaks.fr/',
+  },
+  {
+    name: 'Bedrock',
+    logo: bedrock.src,
+    website: 'https://bedrockstreaming.com/',
+  },
+  {
+    name: 'Indy',
+    logo: indy.src,
+    website: 'https://www.indy.fr/',
+  },
+];
