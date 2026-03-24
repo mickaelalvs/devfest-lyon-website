@@ -2,8 +2,8 @@ import {motion} from "framer-motion";
 import Image from "next/image";
 import {Calendar, ChevronDown, Linkedin, MapPin, Mic2, Ticket} from "lucide-react";
 
-import Logo from '@/assets/images/logo-devfest.svg';
-import Background from '@/assets/images/palais-de-la-bourse-2.jpg';
+import Logo from '@/assets/images/logo-devfest-white.svg';
+import Background from '@/assets/images/palais-de-la-bourse.jpeg';
 
 export const Hero2026 = () => (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -12,10 +12,10 @@ export const Hero2026 = () => (
                 src={Background}
                 alt=""
                 fill
-                className="object-cover blur-sm scale-105"
+                className="object-cover object-[center_75%] scale-105 opacity-20"
                 priority
             />
-            <div className="absolute inset-0 bg-linear-to-br from-google-blue/60 via-black/40 to-google-red/50" />
+            <div className="absolute inset-0 bg-black/60" />
         </div>
         <div className="container px-4 md:px-6 relative z-10">
 

@@ -18,7 +18,7 @@ export default function Home() {
             <Sponsoring2026 />
             <Cfp2026 />
             <Register2026 />
-            <Edition2025 />
+            {/* <Edition2025 /> */}
             <Footer2026 />
         </main>
     );
