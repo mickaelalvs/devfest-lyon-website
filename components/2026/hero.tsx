@@ -1,6 +1,6 @@
 import {motion} from "framer-motion";
 import Image from "next/image";
-import {Calendar, ChevronDown, Linkedin, MapPin, Ticket} from "lucide-react";
+import {Calendar, ChevronDown, Linkedin, MapPin, Mic2, Ticket} from "lucide-react";
 
 import Logo from '@/assets/images/logo-devfest.svg';
 import Background from '@/assets/images/palais-de-la-bourse-2.jpg';
@@ -12,10 +12,10 @@ export const Hero2026 = () => (
                 src={Background}
                 alt=""
                 fill
-                className="object-cover"
+                className="object-cover blur-sm scale-105"
                 priority
             />
-            <div className="absolute inset-0 bg-black/60" />
+            <div className="absolute inset-0 bg-linear-to-br from-google-blue/60 via-black/40 to-google-red/50" />
         </div>
         <div className="container px-4 md:px-6 relative z-10">
 
@@ -45,6 +45,13 @@ export const Hero2026 = () => (
                     transition={{ duration: 0.5, delay: 0.3 }}
                     className="flex flex-col sm:flex-row gap-4 mt-6"
                 >
+                    <a
+                        href="#cfp"
+                        className="inline-flex items-center gap-3 px-8 py-4 bg-google-green hover:bg-google-green/90 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                    >
+                        <Mic2 className="w-5 h-5" />
+                        CFP dès le 13 avril
+                    </a>
                     <a
                         href="https://www.linkedin.com/company/devfest-lyon"
                         target="_blank"
