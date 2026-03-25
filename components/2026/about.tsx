@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import { Calendar, Handshake, Mic2, Users } from 'lucide-react';
 import { SectionLayout } from '@/components/common/sectionLayout';

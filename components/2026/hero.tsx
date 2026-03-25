@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { Calendar, ChevronDown, Linkedin, MapPin, Mic2, Ticket } from 'lucide-react';

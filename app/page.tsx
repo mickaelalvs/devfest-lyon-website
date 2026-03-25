@@ -1,5 +1,3 @@
-'use client';
-
 import { Header2026 } from '@/components/2026/header';
 import { Hero2026 } from '@/components/2026/hero';
 import { About2026 } from '@/components/2026/about';
