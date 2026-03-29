@@ -28,7 +28,7 @@ export const Header2026 = () => {
   return (
     <Fragment>
       <header className="block fixed top-0 z-40 w-full border-b transition-colors duration-300 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60 overflow-hidden">
-        <div className="container flex h-16 items-center justify-center max-w-full">
+        <div className="container flex h-20 items-center justify-center max-w-full">
           <div className="w-full flex items-center justify-between min-w-0">
             <Link href="/" className="flex items-center space-x-2">
               <div className="rounded-full p-1.5">
@@ -47,7 +47,7 @@ export const Header2026 = () => {
                 <a
                   key={href}
                   href={href}
-                  className={`text-s text-center font-medium transition-colors px-8 py-3 rounded-lg my-auto ${className}`}
+                  className={`text-s text-center font-bold transition-colors px-8 py-3 rounded-lg my-auto ${className}`}
                 >
                   {label}
                 </a>
@@ -74,7 +74,7 @@ export const Header2026 = () => {
       {isMenuOpen && (
         <div className="md:hidden fixed inset-0 bg-white dark:bg-gray-900 z-9999">
           <div className="w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
-            <div className="container flex h-16 items-center justify-center">
+            <div className="container flex h-20 items-center justify-center">
               <div className="w-full flex items-center justify-between">
                 <Link href="/" className="flex items-center space-x-2" onClick={closeMenu}>
                   <div className="rounded-full p-1.5">
