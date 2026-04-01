@@ -28,27 +28,33 @@ export const Sponsoring2026 = () => (
         <ul className="mx-auto grid w-full max-w-3xl grid-cols-2 gap-x-6 gap-y-10 sm:max-w-4xl sm:gap-x-8 sm:gap-y-12 md:max-w-5xl md:gap-x-10 pt-10">
           <li className={sponsorItem}>
             <Users className={`${sponsorIcon} text-google-red`} strokeWidth={1.5} aria-hidden />
-            <h4 className={sponsorTitleClass}>Contribuer et soutenir les communautés techniques locales</h4>
+            <h4 className={sponsorTitleClass}>
+              Contribuer et soutenir les <span className="text-black">communautés techniques</span> locales
+            </h4>
           </li>
           <li className={sponsorItem}>
             <Sparkles className={`${sponsorIcon} text-google-blue`} strokeWidth={1.5} aria-hidden />
             <h4 className={sponsorTitleClass}>
-              Associez votre image à un événement clé et gagnez en visibilité auprès d'un public qualifié
+              Associez votre image à un événement clé et gagnez en <span className="text-black">visibilité</span> auprès d'un public
+              qualifié
             </h4>
           </li>
           <li className={sponsorItem}>
             <Briefcase className={`${sponsorIcon} text-[#223364]`} strokeWidth={1.5} aria-hidden />
             <h4 className={sponsorTitleClass}>
-              Créer de vraies opportunités de rencontres et d'échanges pour du recrutement et du business
+              Créer de vraies opportunités de rencontres et d'échanges pour du <span className="text-black">recrutement</span> et du{' '}
+              <span className="text-black">business</span>
             </h4>
           </li>
           <li className={sponsorItem}>
             <GraduationCap className={`${sponsorIcon} text-google-green`} strokeWidth={1.5} aria-hidden />
-            <h4 className={sponsorTitleClass}>Montée en compétences de vos équipes avec des échanges avec la communauté</h4>
+            <h4 className={sponsorTitleClass}>
+              Faire <span className="text-black">monter en compétences</span> vos équipes avec des échanges avec la communauté
+            </h4>
           </li>
         </ul>
 
-        <Button size="lg" className="bg-google-yellow hover:bg-google-yellow/90 text-black font-semibold group mt-6" asChild>
+        <Button size="lg" className="bg-google-yellow hover:bg-google-yellow/90 text-black font-semibold group mt-6 text-base" asChild>
           <Link
             href="https://drive.google.com/drive/u/1/folders/1P8Q6wzMP-DxdlLHXzQmRpDmXhakrDWDE"
             target="_blank"

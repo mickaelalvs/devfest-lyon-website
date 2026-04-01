@@ -44,7 +44,7 @@ const ABOUT_STATS: AboutStat[] = [
   {
     id: 'tracks',
     value: '3',
-    caption: "Tracks de talks techniques d'expert·e·s",
+    caption: 'Tracks de talks techniques présentés par des expert·e·s',
     Icon: Mic2,
     iconClass: 'text-google-green',
   },
@@ -72,7 +72,7 @@ export const About2026 = () => (
         </p>
         <Edition2025Spotlight variant="about" theme="blue" className="mt-8 mb-4 sm:mt-10 sm:mb-5" />
         <div className="flex flex-col items-center gap-2 pb-6 sm:pb-8">
-          <Button size="lg" className="bg-google-blue font-semibold hover:bg-google-blue/90 group" asChild>
+          <Button size="lg" className="text-base bg-google-blue font-semibold hover:bg-google-blue/90 group" asChild>
             <Link href={EDITION_2025_PHOTOS_URL} target="_blank" rel="noopener noreferrer">
               Voir toutes les photos de l&apos;édition 2025
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

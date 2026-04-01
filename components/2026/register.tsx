@@ -18,7 +18,7 @@ export const Register2026 = () => (
           La billetterie ouvrira prochainement. Suivez-nous sur LinkedIn pour être informé·e de l'ouverture des inscriptions !
         </p>
         <div className="flex items-center justify-center mt-8">
-          <Button size="lg" className="bg-google-red hover:bg-google-red/90 group font-semibold" asChild>
+          <Button size="lg" className="bg-google-red hover:bg-google-red/90 group font-semibold text-base" asChild>
             <Link href="https://www.linkedin.com/company/devfest-lyon" target="_blank" rel="noopener noreferrer">
               Suivez-nous sur LinkedIn
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

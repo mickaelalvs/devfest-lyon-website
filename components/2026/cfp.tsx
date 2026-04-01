@@ -120,7 +120,7 @@ export const Cfp2026 = () => (
       </div>
 
       <div className="flex w-full justify-center pt-10">
-        <Button size="lg" className="bg-google-green font-semibold text-white hover:bg-google-green/90 group" asChild>
+        <Button size="lg" className="text-base bg-google-green font-semibold text-white hover:bg-google-green/90 group" asChild>
           <Link href={CFP_CONFERENCE_HALL_URL} target="_blank" rel="noopener noreferrer">
             Soumettre ma proposition
             <ExternalLink className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
