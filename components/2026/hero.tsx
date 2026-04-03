@@ -6,7 +6,7 @@ import Logo from '@/assets/images/logo-devfest.svg';
 import Background from '@/assets/images/edition-2026/hero.jpeg';
 
 export const Hero2026 = () => (
-  <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <section className="relative min-h-screen flex justify-center overflow-hidden pt-[83px] sm:pt-32">
     <div className="absolute inset-0 -z-10">
       <Image src={Background} alt="" fill className="object-cover object-[center_75%] scale-105 opacity-20" priority />
       <div className="absolute inset-0 bg-white/10" />
@@ -20,7 +20,7 @@ export const Hero2026 = () => (
           className="space-y-2"
         >
           <div className="relative inline-block">
-            <Image src={Logo} alt="DevFest Lyon Logo" width={750} height={1600} className="mx-auto relative" />
+            <Image src={Logo} alt="DevFest Lyon Logo" width={750} height={1600} className="mx-auto relative md:max-h-[50vh] max-h-[30vh]" />
           </div>
           <h1 className="mx-auto max-w-200 text-[#223364] md:text-2xl text-balance font-bold">
             DevFest Lyon, conférence technique destinée à la communauté tech une fois par an dans la ville des lumières 🦁
@@ -77,7 +77,7 @@ export const Hero2026 = () => (
     </div>
 
     <motion.a
-      className="hover:cursor-pointer absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center"
+      className="hover:cursor-pointer absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center z-20"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 1, duration: 0.5 }}
